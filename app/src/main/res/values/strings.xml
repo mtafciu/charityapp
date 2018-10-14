@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">TodayDifferent</string>
+
+    <string name="search_hint_shop">Search</string>
+
+    <string-array name="shop_type_list">
+        <item>Education</item>
+        <item>Animals</item>
+        <item>Sports</item>
+        <item>Eld People</item>
+        <item>Children</item>
+    </string-array>
+
+    <string-array name="shop_filter_list">
+        <item>Price from low to high</item>
+    </string-array>
+
+    <string-array name="vol_loc_list">
+        <item>5 KM nearby</item>
+        <item>10 KM nearby</item>
+        <item>15 KM nearby</item>
+        <item>20 KM nearby</item>
+        <item>25 KM nearby</item>
+    </string-array>
+
+    <string-array name="vol_date_list">
+        <item>11.Oct.2018</item>
+        <item>12.Oct.2018</item>
+        <item>13.Oct.2018</item>
+        <item>14.Oct.2018</item>
+        <item>15.Oct.2018</item>
+        <item>16.Oct.2018</item>
+        <item>17.Oct.2018</item>
+        <item>Oct.2018</item>
+        <item>Nov.2018</item>
+        <item>Dec.2018</item>
+        <item>Jan.2019</item>
+    </string-array>
+
+    <string-array name="do_type_list">
+        <item>11.Oct.2018</item>
+        <item>12.Oct.2018</item>
+        <item>13.Oct.2018</item>
+        <item>14.Oct.2018</item>
+        <item>15.Oct.2018</item>
+    </string-array>
+
+    <string-array name="do_sort_list">
+        <item>below to 10%</item>
+        <item>below to 30%</item>
+        <item>below to 50%</item>
+        <item>below to 70%</item>
+        <item>below to 90%</item>
+        <item>100%</item>
+
+    </string-array>
+</resources>
+
+
