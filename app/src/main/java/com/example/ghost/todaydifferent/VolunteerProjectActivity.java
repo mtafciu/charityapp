@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.widget.ImageView;
 
-public class VolunteerProject extends Activity {
+public class VolunteerProjectActivity extends Activity {
     ImageView img_projectImage;
 
     @Override

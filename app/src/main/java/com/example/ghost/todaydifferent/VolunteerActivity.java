@@ -9,8 +9,6 @@ import android.widget.ImageButton;
 import android.widget.Spinner;
 import android.widget.TextView;
 
-import org.w3c.dom.Text;
-
 public class VolunteerActivity extends Activity {
 
     ImageButton btn_volunteer;
@@ -86,7 +84,7 @@ public class VolunteerActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerActivity.this, VolunteerProject.class);
+                intent.setClass(VolunteerActivity.this, VolunteerProjectActivity.class);
                 startActivity(intent);
                 finish();
             }

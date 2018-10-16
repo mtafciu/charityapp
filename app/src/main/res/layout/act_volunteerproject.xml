@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
@@ -32,7 +31,47 @@
             android:textSize="20sp"
             android:textColor="@color/colorLight"
             android:textStyle="bold"
-            android:text="Orphanage Program"/>
+            android:text="Volunteer in Mannheim -  Education projects"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/txt_tags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:text="Children, Education"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLight"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@android:drawable/ic_menu_mylocation"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:clickable="true"
+                    android:text="400 m"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLight"/>
+            </LinearLayout>
+        </LinearLayout>
+
         <TextView
             android:id="@+id/txt_projectOrg"
             android:layout_width="match_parent"
@@ -41,20 +80,68 @@
             android:textStyle="italic"
             android:text="ChildCare.Com" />
 
-        <EditText
-            android:id="@+id/editText"
+        <TextView
+            android:id="@+id/txt_projectDescription"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:ems="10"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="10dp"
             android:textSize="14sp"
-            android:inputType="textMultiLine"
-            android:text="In this project, you are given the opportunity to volunteer in an orphanage to teach kids Math and English..."
+            android:text="In this project, you are given the opportunity to volunteer in an orphanage to teach kids Math and English. Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your skills."
             />
-
-        <com.google.android.gms.maps.MapView
-            android:id="@+id/mapView"
+        <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="left">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Phone:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorLight"
+                android:text="+49 185 888 54 54"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="3dp"
+            android:layout_marginRight="30dp"
+            android:layout_gravity="left">
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="20dp"
+                android:src="@android:drawable/ic_menu_mylocation"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:text="Address:"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="14sp"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/colorLight"
+                android:text="Seckenheimer Landstraße 4A, 68163 Mannheim"
+                />
+        </LinearLayout>
+
 
     </LinearLayout>
 </LinearLayout>

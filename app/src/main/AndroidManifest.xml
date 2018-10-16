@@ -23,7 +23,7 @@
         <activity android:name=".DonationActivity"></activity>
         <activity android:name=".SignUpActivity"></activity>
         <activity android:name=".InterestsActivity"></activity>
-        <activity android:name=".VolunteerProject"></activity>
+        <activity android:name=".VolunteerProjectActivity"></activity>
     </application>
 
 </manifest>
