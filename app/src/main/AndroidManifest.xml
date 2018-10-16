@@ -24,6 +24,7 @@
         <activity android:name=".SignUpActivity"></activity>
         <activity android:name=".InterestsActivity"></activity>
         <activity android:name=".VolunteerProjectActivity"></activity>
+        <activity android:name=".DonationProjectActivity"></activity>
     </application>
 
 </manifest>

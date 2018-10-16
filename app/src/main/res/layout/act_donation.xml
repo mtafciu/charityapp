@@ -95,50 +95,93 @@
                 android:paddingBottom="40dp"
                 android:orientation="vertical">
                 <LinearLayout
-                    android:layout_weight="1"
+                    android:id="@+id/ll_do_project_1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
-                    android:background="@drawable/ll_card_border"
-                    android:layout_gravity="center_vertical">
-
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ll_card_border">
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="80dp"
-                        android:layout_marginLeft="20dp"
-                        android:src="@drawable/car"
-                        android:layout_gravity="center"/>
-
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/orphanstudents" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical">
-
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:orientation="vertical">
                         <TextView
-                            android:layout_weight="1"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="15sp"
-                            />
-
-                        <TextView
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
                             android:layout_marginTop="5dp"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="10sp"/>
+                            android:clickable="true"
+                            android:text="Donation in Mannheim -  Education projects "
+                            android:textColor="@color/colorLight"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/star_off"/>
+                                <TextView
+                                    android:id="@+id/txt_tags"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="Children, Education"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/ic_menu_mylocation"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="400 m"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your..."
+                            android:textSize="13sp" />
 
                         <ProgressBar
                             style="@android:style/Widget.ProgressBar.Horizontal"
                             android:layout_weight="2"
-                            android:layout_width="150dp"
+                            android:layout_width="match_parent"
                             android:layout_height="10dp"
                             android:layout_marginLeft="1dp"
                             android:layout_marginRight="5dp"
@@ -148,54 +191,106 @@
                             android:progressBackgroundTint="@color/colorPrimary"
                             android:progressTint="@color/colorAccent"
                             android:max="100"
-                            android:progress="30" />
+                            android:progress="30"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="300000 / 1000000"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="1dp"/>
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
                     android:background="@drawable/ll_card_border">
-
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="80dp"
-                        android:layout_marginLeft="20dp"
-                        android:src="@drawable/drop"/>
-
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/orphanstudents" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical">
-
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:orientation="vertical">
                         <TextView
-                            android:layout_weight="1"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="15sp"
-                            />
-
-                        <TextView
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
                             android:layout_marginTop="5dp"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="10sp"/>
+                            android:clickable="true"
+                            android:text="Volunteer in Mannheim -  Education projects "
+                            android:textColor="@color/colorLight"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/star_off"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="Children, Education"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/ic_menu_mylocation"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="400 m"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your..."
+                            android:textSize="13sp" />
 
                         <ProgressBar
                             style="@android:style/Widget.ProgressBar.Horizontal"
                             android:layout_weight="2"
-                            android:layout_width="150dp"
+                            android:layout_width="match_parent"
                             android:layout_height="10dp"
                             android:layout_marginLeft="1dp"
                             android:layout_marginRight="5dp"
@@ -205,54 +300,106 @@
                             android:progressBackgroundTint="@color/colorPrimary"
                             android:progressTint="@color/colorAccent"
                             android:max="100"
-                            android:progress="30" />
+                            android:progress="30"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="300000 / 1000000"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="1dp"/>
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
                     android:background="@drawable/ll_card_border">
-
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="80dp"
-                        android:layout_marginLeft="20dp"
-                        android:src="@drawable/ambulance"/>
-
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/orphanstudents" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical">
-
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:orientation="vertical">
                         <TextView
-                            android:layout_weight="1"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="15sp"
-                            />
-
-                        <TextView
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
                             android:layout_marginTop="5dp"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="10sp"/>
+                            android:clickable="true"
+                            android:text="Volunteer in Mannheim -  Education projects "
+                            android:textColor="@color/colorLight"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/star_off"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="Children, Education"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/ic_menu_mylocation"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="400 m"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your..."
+                            android:textSize="13sp" />
 
                         <ProgressBar
                             style="@android:style/Widget.ProgressBar.Horizontal"
                             android:layout_weight="2"
-                            android:layout_width="150dp"
+                            android:layout_width="match_parent"
                             android:layout_height="10dp"
                             android:layout_marginLeft="1dp"
                             android:layout_marginRight="5dp"
@@ -262,54 +409,106 @@
                             android:progressBackgroundTint="@color/colorPrimary"
                             android:progressTint="@color/colorAccent"
                             android:max="100"
-                            android:progress="30" />
+                            android:progress="30"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="300000 / 1000000"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="1dp"/>
                     </LinearLayout>
                 </LinearLayout>
 
                 <LinearLayout
-                    android:layout_weight="1"
                     android:layout_width="match_parent"
-                    android:layout_height="match_parent"
-                    android:orientation="horizontal"
-                    android:layout_marginRight="15dp"
-                    android:layout_marginLeft="15dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
                     android:background="@drawable/ll_card_border">
-
                     <ImageView
-                        android:layout_width="60dp"
-                        android:layout_height="80dp"
-                        android:layout_marginLeft="20dp"
-                        android:src="@drawable/kids"/>
-
+                        android:layout_width="match_parent"
+                        android:layout_height="250dp"
+                        android:layout_marginTop="13dp"
+                        android:scaleType="fitXY"
+                        android:src="@drawable/orphanstudents" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:orientation="vertical"
-                        android:layout_marginLeft="20dp"
-                        android:layout_gravity="center_vertical">
-
+                        android:layout_gravity="center_vertical"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
+                        android:orientation="vertical">
                         <TextView
-                            android:layout_weight="1"
                             android:layout_width="match_parent"
-                            android:layout_height="match_parent"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="15sp"
-                            />
-
-                        <TextView
+                            android:layout_height="wrap_content"
                             android:layout_weight="1"
-                            android:layout_width="match_parent"
-                            android:layout_height="match_parent"
+                            android:layout_marginLeft="5dp"
                             android:layout_marginTop="5dp"
-                            android:text="XXX XXXX XXXXX X"
-                            android:textSize="10sp"/>
+                            android:clickable="true"
+                            android:text="Volunteer in Mannheim -  Education projects "
+                            android:textColor="@color/colorLight"
+                            android:textSize="15sp"
+                            android:textStyle="bold" />
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="left"
+                            android:orientation="horizontal">
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/star_off"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="Children, Education"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp">
+                                <ImageView
+                                    android:layout_width="20dp"
+                                    android:layout_height="20dp"
+                                    android:src="@android:drawable/ic_menu_mylocation"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="400 m"
+                                    android:textSize="12sp"
+                                    android:textStyle="italic"
+                                    android:textColor="@color/colorLight"/>
+                            </LinearLayout>
+
+                        </LinearLayout>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:layout_weight="1"
+                            android:text="Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your..."
+                            android:textSize="13sp" />
 
                         <ProgressBar
                             style="@android:style/Widget.ProgressBar.Horizontal"
                             android:layout_weight="2"
-                            android:layout_width="150dp"
+                            android:layout_width="match_parent"
                             android:layout_height="10dp"
                             android:layout_marginLeft="1dp"
                             android:layout_marginRight="5dp"
@@ -319,7 +518,17 @@
                             android:progressBackgroundTint="@color/colorPrimary"
                             android:progressTint="@color/colorAccent"
                             android:max="100"
-                            android:progress="50" />
+                            android:progress="30"/>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="300000 / 1000000"
+                            android:layout_marginTop="5dp"
+                            android:layout_marginBottom="10dp"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="13sp"
+                            android:layout_marginLeft="1dp"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
