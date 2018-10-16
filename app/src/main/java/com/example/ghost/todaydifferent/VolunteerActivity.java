@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
+import android.widget.LinearLayout;
 import android.widget.Spinner;
 import android.widget.TextView;
 
@@ -17,6 +18,7 @@ public class VolunteerActivity extends Activity {
     Spinner spinner_type;
     Spinner spinner_filter;
     TextView txt_profile;
+    LinearLayout ll_vo_project_1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +38,17 @@ public class VolunteerActivity extends Activity {
                 android.R.layout.simple_spinner_dropdown_item);
         spinner_filter.setAdapter(filterList);
 
+        ll_vo_project_1 = findViewById(R.id.ll_vo_project_1);
+        ll_vo_project_1.setOnClickListener(new View.OnClickListener() {
 
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(VolunteerActivity.this, VolunteerProjectActivity.class);
+                startActivity(intent);
+            }
+        });
 
         btn_volunteer = findViewById(R.id.btn_volunteer);
         btn_volunteer.setOnClickListener(new View.OnClickListener() {

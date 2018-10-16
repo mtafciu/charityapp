@@ -45,7 +45,6 @@ public class DonationActivity extends Activity {
                 Intent intent = new Intent();
                 intent.setClass(DonationActivity.this, DonationProjectActivity.class);
                 startActivity(intent);
-                finish();
             }
         });
 

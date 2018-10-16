@@ -56,7 +56,9 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
+        android:gravity="center_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
 
         <SearchView
             android:layout_height="wrap_content"
@@ -93,20 +95,27 @@
                 android:paddingBottom="40dp"
                 android:orientation="vertical">
                 <LinearLayout
+                    android:id="@+id/ll_vo_project_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:layout_marginTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ll_card_border">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
+                        android:layout_marginTop="13dp"
                         android:scaleType="fitXY"
                         android:src="@drawable/orphanstudents" />
                     <LinearLayout
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_vertical"
+                        android:paddingRight="5dp"
+                        android:paddingLeft="5dp"
                         android:orientation="vertical">
                         <TextView
                             android:id="@+id/txt_listprojecttitle"
@@ -114,6 +123,7 @@
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
                             android:layout_marginLeft="5dp"
+                            android:layout_marginTop="5dp"
                             android:clickable="true"
                             android:text="Volunteer in Mannheim -  Education projects "
                             android:textColor="@color/colorLight"
@@ -175,9 +185,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginVertical="5dp"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ll_card_border">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
@@ -253,9 +264,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginVertical="5dp"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ll_card_border">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
@@ -331,9 +343,10 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_vertical"
-                    android:layout_marginVertical="5dp"
                     android:layout_weight="1"
-                    android:orientation="vertical">
+                    android:layout_marginTop="20dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/ll_card_border">
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="250dp"
