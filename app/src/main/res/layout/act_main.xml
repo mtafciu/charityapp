@@ -11,7 +11,7 @@
 
     <ImageView
         android:layout_width="match_parent"
-        android:layout_height="180dp"
+        android:layout_height="150dp"
         android:src="@drawable/logo"
         android:gravity="center"/>
 
@@ -27,7 +27,7 @@
         android:id="@+id/et_main_email"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="30dp"
         android:hint="Email"/>
 
     <EditText
@@ -41,7 +41,7 @@
         android:id="@+id/btn_main_log_in"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="30dp"
+        android:layout_marginTop="20dp"
         android:text="Log In"
         android:background="@color/colorLight"/>
 

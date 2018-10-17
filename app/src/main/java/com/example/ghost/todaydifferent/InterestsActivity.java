@@ -30,8 +30,9 @@ public class InterestsActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(InterestsActivity.this, VolunteerActivity.class);
+                intent.setClass(InterestsActivity.this, ProfileActivity.class);
                 startActivity(intent);
+                finish();
             }
         });
 

@@ -17,7 +17,7 @@ public class VolunteerActivity extends Activity {
     ImageButton btn_profile;
     Spinner spinner_type;
     Spinner spinner_filter;
-    TextView txt_profile;
+
     LinearLayout ll_vo_project_1;
 
     @Override
@@ -84,19 +84,6 @@ public class VolunteerActivity extends Activity {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(VolunteerActivity.this, ProfileActivity.class);
-                startActivity(intent);
-                finish();
-            }
-        });
-
-        txt_profile = findViewById(R.id.txt_listprojecttitle);
-        txt_profile.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                Intent intent = new Intent();
-                intent.setClass(VolunteerActivity.this, VolunteerProjectActivity.class);
                 startActivity(intent);
                 finish();
             }

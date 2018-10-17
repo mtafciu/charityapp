@@ -8,5 +8,6 @@
     <color name="colorLightest">#e2b6b6</color>
 
     <color name="lightGrey">#d7d7d5</color>
+    <color name="darkGrey">#666666</color>
 
 </resources>

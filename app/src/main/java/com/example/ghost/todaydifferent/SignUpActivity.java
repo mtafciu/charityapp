@@ -39,7 +39,7 @@ public class SignUpActivity extends Activity {
                 Intent intent = new Intent();
                 intent.setClass(SignUpActivity.this, InterestsActivity.class);
                 startActivity(intent);
-                //finish();
+                finish();
             }
         });
     }

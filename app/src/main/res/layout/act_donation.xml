@@ -111,11 +111,12 @@
                         android:src="@drawable/orphanstudents" />
                     <LinearLayout
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
                         android:layout_gravity="center_vertical"
                         android:paddingRight="5dp"
                         android:paddingLeft="5dp"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        >
                         <TextView
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -126,7 +127,7 @@
                             android:text="Donation in Mannheim -  Education projects "
                             android:textColor="@color/colorLight"
                             android:textSize="15sp"
-                            android:textStyle="bold" />
+                            android:textStyle="bold"/>
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
@@ -166,7 +167,7 @@
                                     android:text="400 m"
                                     android:textSize="12sp"
                                     android:textStyle="italic"
-                                    android:textColor="@color/colorLight"/>
+                                    android:textColor="@color/colorLight" />
                             </LinearLayout>
 
                         </LinearLayout>
