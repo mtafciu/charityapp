@@ -11,7 +11,7 @@
         android:layout_weight="1"
         android:id="@+id/ll_do_nav"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="40dp"
         android:orientation="horizontal"
         android:background="#EEEEEE"
         >
@@ -32,7 +32,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Donations"
             android:gravity="center_vertical"
 

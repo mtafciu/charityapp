@@ -61,6 +61,8 @@ public class DonationActivity extends Activity {
             }
         });
 
+
+
         btn_donation = findViewById(R.id.btn_donation);
         btn_donation.setOnClickListener(new View.OnClickListener() {
 

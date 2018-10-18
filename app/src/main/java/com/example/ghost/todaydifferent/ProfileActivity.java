@@ -8,7 +8,8 @@ import android.widget.Button;
 import android.widget.ImageButton;
 
 public class ProfileActivity extends Activity {
-    Button btn_shop;
+    Button btn_pro_shop;
+    Button btn_pro_certificate;
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
@@ -18,14 +19,27 @@ public class ProfileActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_profile);
 
-        btn_shop = findViewById(R.id.btn_pro_shop);
-        btn_shop.setOnClickListener(new View.OnClickListener() {
+        btn_pro_shop = findViewById(R.id.btn_pro_shop);
+        btn_pro_shop.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(ProfileActivity.this, ShopActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        btn_pro_certificate = findViewById(R.id.btn_pro_certificate);
+        btn_pro_certificate.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(ProfileActivity.this, CertificateActivity.class);
                 startActivity(intent);
                 //finish();
             }

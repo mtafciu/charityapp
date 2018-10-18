@@ -10,7 +10,7 @@
         android:layout_weight="1"
         android:id="@+id/ll_pro_nav"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="40dp"
         android:orientation="horizontal"
         android:background="#EEEEEE"
         >
@@ -31,7 +31,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:textSize="20sp"
+            android:textSize="15sp"
             android:text="Profile"
             android:gravity="center_vertical"
 
@@ -58,13 +58,13 @@
 
         <ImageView
             android:layout_width="130dp"
-            android:layout_height="140dp"
+            android:layout_height="120dp"
             android:layout_marginTop="20dp"
             android:src="@drawable/luka"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:textSize="30sp"
+            android:textSize="25sp"
             android:text="Luka"
             android:gravity="center"/>
         <TextView
@@ -74,13 +74,22 @@
             android:textSize="15sp"
             android:text="150 pts"
             android:gravity="center"/>
+        <Button
+            android:id="@+id/btn_pro_certificate"
+            android:layout_width="180dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="13sp"
+            android:text="My Certificate"
+            android:background="@color/colorLight"/>
 
         <Button
             android:id="@+id/btn_pro_shop"
-            android:layout_width="100dp"
+            android:layout_width="180dp"
             android:layout_height="30dp"
-            android:layout_marginTop="20dp"
-            android:text="Shop"
+            android:layout_marginTop="10dp"
+            android:textSize="13sp"
+            android:text="Convert My Points"
             android:background="@color/colorLight"/>
 
         <TextView
@@ -89,7 +98,7 @@
             android:layout_marginTop="20dp"
             android:layout_marginRight="20dp"
             android:layout_marginLeft="20dp"
-            android:background="@color/colorAccent"
+            android:background="@color/colorLight"
             android:gravity="center"/>
 
         <LinearLayout
@@ -98,7 +107,7 @@
             android:orientation="horizontal"
             android:layout_marginLeft="50dp"
             android:layout_marginRight="50dp"
-            android:layout_marginTop="20dp">
+            android:layout_marginTop="10dp">
 
             <TextView
                 android:layout_weight="3"
@@ -167,6 +176,24 @@
                 android:textSize="13sp"
                 android:text="Animals, Family, Education"/>
         </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@color/colorLight"
+            android:gravity="center"/>
+
+        <Button
+            android:id="@+id/btn_pro_his"
+            android:layout_width="230dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:textSize="13sp"
+            android:text="Volunteer Work History"
+            android:background="@color/colorLight"/>
 
     </LinearLayout>
 
