@@ -13,6 +13,7 @@ public class ProfileActivity extends Activity {
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
+    ImageButton btn_news;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -45,7 +46,20 @@ public class ProfileActivity extends Activity {
             }
         });
 
-        btn_volunteer = findViewById(R.id.btn_volunteer);
+        btn_news = findViewById(R.id.btn_pro_news);
+        btn_news.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(ProfileActivity.this, VolunteerActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btn_volunteer = findViewById(R.id.btn_pro_vol);
         btn_volunteer.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -58,7 +72,7 @@ public class ProfileActivity extends Activity {
             }
         });
 
-        btn_donation = findViewById(R.id.btn_donation);
+        btn_donation = findViewById(R.id.btn_pro_do);
         btn_donation.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -71,7 +85,7 @@ public class ProfileActivity extends Activity {
             }
         });
 
-        btn_profile = findViewById(R.id.btn_profile);
+        btn_profile = findViewById(R.id.btn_pro_pro);
         btn_profile.setOnClickListener(new View.OnClickListener() {
 
             @Override

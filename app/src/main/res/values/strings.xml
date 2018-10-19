@@ -3,6 +3,32 @@
 
     <string name="search_hint_shop">Search</string>
 
+    <string-array name="sign_country_list">
+        <item>Germany</item>
+        <item>Taiwan</item>
+        <item>China</item>
+        <item>xxx</item>
+        <item>aaa</item>
+    </string-array>
+
+    <string-array name="sign_city_list">
+        <item>Mannheim</item>
+        <item>Heidelberg</item>
+        <item>Taipei</item>
+        <item>Beijing</item>
+    </string-array>
+
+    <string-array name="sign_interest_list">
+        <item>Animals</item>
+        <item>Children</item>
+        <item>Education</item>
+        <item>Elderly</item>
+        <item>Environment</item>
+        <item>Health</item>
+        <item>Human Rights</item>
+        <item>Refugee</item>
+    </string-array>
+
     <string-array name="shop_type_list">
         <item>Education</item>
         <item>Animals</item>

@@ -1,19 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:weightSum="10"
     android:id="@+id/ll_profile"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <LinearLayout
-        android:layout_weight="1"
         android:id="@+id/ll_pro_nav"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#EEEEEE"
-        >
+        android:background="@color/colorLighter"
+        android:layout_weight="12">
 
         <ImageButton
             android:id="@+id/btn_pro_back"
@@ -22,20 +20,16 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:src="@null"
-            android:background="#EEEEEE"
-            />
+            android:background="@color/colorLighter"/>
 
         <TextView
             android:id="@+id/txt_pro_nav"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="20dp"
             android:textSize="15sp"
             android:text="Profile"
-            android:gravity="center_vertical"
-
-            />
+            android:gravity="center"/>
 
 
         <ImageButton
@@ -45,192 +39,202 @@
             android:layout_marginRight="20dp"
             android:layout_gravity="right"
             android:src="@drawable/edit"
-            android:background="#EEEEEE"/>
+            android:background="@color/colorLighter"/>
 
     </LinearLayout>
 
     <LinearLayout
-        android:layout_weight="8"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="vertical"
-        android:gravity="center_horizontal">
-
-        <ImageView
-            android:layout_width="130dp"
-            android:layout_height="120dp"
-            android:layout_marginTop="20dp"
-            android:src="@drawable/luka"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:textSize="25sp"
-            android:text="Luka"
-            android:gravity="center"/>
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:textSize="15sp"
-            android:text="150 pts"
-            android:gravity="center"/>
-        <Button
-            android:id="@+id/btn_pro_certificate"
-            android:layout_width="180dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="20dp"
-            android:textSize="13sp"
-            android:text="My Certificate"
-            android:background="@color/colorLight"/>
-
-        <Button
-            android:id="@+id/btn_pro_shop"
-            android:layout_width="180dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="10dp"
-            android:textSize="13sp"
-            android:text="Convert My Points"
-            android:background="@color/colorLight"/>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:background="@color/colorLight"
-            android:gravity="center"/>
+        android:layout_weight="1">
 
         <LinearLayout
+            android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp"
-            android:layout_marginTop="10dp">
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="130dp"
+                android:layout_height="120dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/luka"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="25sp"
+                android:text="Luka"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:textSize="15sp"
+                android:text="150 pts"
+                android:gravity="center"/>
+            <Button
+                android:id="@+id/btn_pro_certificate"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
+                android:textSize="13sp"
+                android:text="My Certificate"
+                android:background="@color/colorLight"/>
+
+            <Button
+                android:id="@+id/btn_pro_shop"
+                android:layout_width="180dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="10dp"
+                android:textSize="13sp"
+                android:text="Convert My Points"
+                android:background="@color/colorLight"/>
 
             <TextView
-                android:layout_weight="3"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:textSize="13sp"
-                android:text="Age"/>
+                android:layout_height="3dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginLeft="20dp"
+                android:background="@color/colorLight"
+                android:gravity="center"/>
 
-            <TextView
-                android:layout_weight="1"
+            <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp"
+                android:layout_marginTop="10dp">
+
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:text="Age"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:text="23"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
+
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:text="Location"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:text="Mannheim, Germany"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="50dp"
+                android:layout_marginRight="50dp">
+
+                <TextView
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:textSize="13sp"
+                    android:text="Interests"/>
+
+                <TextView
+                    android:layout_weight="1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:textSize="13sp"
+                    android:text="Animals, Family, Education"/>
+            </LinearLayout>
+
+
+            <Button
+                android:id="@+id/btn_pro_his"
+                android:layout_width="230dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="20dp"
                 android:textSize="13sp"
-                android:text="23"/>
+                android:text="Previous Contribution"
+                android:background="@color/colorLight"/>
+
         </LinearLayout>
+
 
         <LinearLayout
+            android:layout_weight="11"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp">
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
-            <TextView
+
+            <ImageButton
                 android:layout_weight="3"
-                android:layout_width="match_parent"
+                android:id="@+id/btn_pro_news"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:textSize="13sp"
-                android:text="Location"/>
+                android:src="@drawable/news_icon"
+                android:background="@color/colorPrimaryDark"
+                />
 
-            <TextView
-                android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
-                android:textSize="13sp"
-                android:text="Mannheim, Germany"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_marginLeft="50dp"
-            android:layout_marginRight="50dp">
-
-            <TextView
+            <ImageButton
                 android:layout_weight="3"
-                android:layout_width="match_parent"
+                android:id="@+id/btn_pro_vol"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:textSize="13sp"
-                android:text="Interests"/>
+                android:src="@drawable/volunteer"
+                android:background="@color/colorPrimaryDark"
+                />
 
-            <TextView
-                android:layout_weight="1"
-                android:layout_width="match_parent"
+
+            <ImageButton
+                android:layout_weight="3"
+                android:id="@+id/btn_pro_do"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_marginLeft="5dp"
-                android:textSize="13sp"
-                android:text="Animals, Family, Education"/>
+                android:src="@drawable/donation"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <ImageButton
+                android:layout_weight="3"
+                android:id="@+id/btn_pro_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile"
+                android:background="@color/colorAccent"
+                />
         </LinearLayout>
-
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="3dp"
-            android:layout_marginTop="20dp"
-            android:layout_marginRight="20dp"
-            android:layout_marginLeft="20dp"
-            android:background="@color/colorLight"
-            android:gravity="center"/>
-
-        <Button
-            android:id="@+id/btn_pro_his"
-            android:layout_width="230dp"
-            android:layout_height="30dp"
-            android:layout_marginTop="20dp"
-            android:textSize="13sp"
-            android:text="Volunteer Work History"
-            android:background="@color/colorLight"/>
 
     </LinearLayout>
-
-
-    <LinearLayout
-        android:layout_weight="1"
-        android:layout_width="match_parent"
-        android:layout_height="30dp"
-        android:orientation="horizontal">
-
-        <ImageButton
-            android:layout_weight="3"
-            android:id="@+id/btn_volunteer"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/volunteer"
-            android:background="@color/colorPrimaryDark"
-            />
-
-        <ImageButton
-            android:layout_weight="3"
-            android:id="@+id/btn_profile"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/profile"
-            android:background="@color/colorAccent"
-            />
-
-        <ImageButton
-            android:layout_weight="3"
-            android:id="@+id/btn_donation"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent"
-            android:src="@drawable/donation"
-            android:background="@color/colorPrimaryDark"
-            />
-    </LinearLayout>
-
 
 </LinearLayout>
