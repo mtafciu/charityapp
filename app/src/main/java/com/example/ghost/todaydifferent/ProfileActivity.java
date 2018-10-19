@@ -53,7 +53,7 @@ public class ProfileActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(ProfileActivity.this, VolunteerActivity.class);
+                intent.setClass(ProfileActivity.this, NewsActivity.class);
                 startActivity(intent);
                 finish();
             }

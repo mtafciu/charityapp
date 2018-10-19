@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_news"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_weight="12"
+        android:id="@+id/ll_newws_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorLighter"
+        android:gravity="center">
+
+
+        <TextView
+            android:id="@+id/txt_news_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textSize="18sp"
+            android:text="Donation Opportunity"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_horizontal">
+
+
+            <LinearLayout
+                android:layout_weight="11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:background="@color/lighterGrey"
+                android:paddingTop="10dp">
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/btn_news_sort"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@null"
+                    android:src="@drawable/sort"/>
+                <TextView
+                    android:layout_width="1dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginBottom="10dp"
+                    android:background="@color/darkGrey" />
+
+                <ImageButton
+                    android:layout_weight="1"
+                    android:id="@+id/btn_news_filter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:background="@null"
+                    android:src="@drawable/filter"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_weight="3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="25dp"
+                        android:gravity="center"
+                        android:text="Today Different"
+                        android:textSize="20sp"
+                        android:textColor="@color/colorDarkest"/>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Small Change, Big Difference"
+                        android:textSize="10sp"
+                        android:textColor="@color/darkGrey"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_marginTop="15dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:orientation="horizontal">
+
+                        <Button
+                            android:id="@+id/btn_news_log_in"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:text="Log In"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:background="@color/colorLight"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:gravity="center"/>
+
+                        <Button
+                            android:id="@+id/btn_news_sign_up"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="@color/colorLight"
+                            android:text="Join Now"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="16sp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:layout_marginLeft="10dp"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <ScrollView
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:layout_width="match_parent"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="15dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingBottom="40dp"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:id="@+id/ll_news_project_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/ll_card_border">
+
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="200dp"
+                                android:layout_marginTop="13dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/tsunami" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_weight="1"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginTop="10dp"
+                                android:clickable="true"
+                                android:text="Tsunami in Indonesia"
+                                android:textColor="@color/colorLight"
+                                android:textSize="15sp"
+                                android:textStyle="bold"/>
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_weight="1"
+                                android:text="The confirmed death toll from the earthquake and tsunami that struck the Indonesian island of Sulawesi has risen to 832, and the vice-president, Jusuf Kalla, has warned it could reach into the thousands..."
+                                android:textSize="13sp" />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="20dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginBottom="5dp"
+                                android:orientation="horizontal"
+                                android:layout_gravity="center_vertical">
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center_vertical"
+                                    android:src="@drawable/tags"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="Environment, Children"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/darkerGrey"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="13dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginLeft="30dp"
+                                    android:src="@drawable/calendar"/>
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="match_parent"
+                                    android:text="12. Nov. 2018"
+                                    android:textSize="10sp"
+                                    android:textColor="@color/darkerGrey"/>
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+                    </LinearLayout>
+                </ScrollView>
+            </LinearLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_weight="11"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:layout_weight="3"
+                android:id="@+id/btn_news_news"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/news_icon"
+                android:background="@color/colorAccent"
+                />
+
+            <ImageButton
+                android:layout_weight="3"
+                android:id="@+id/btn_news_vol"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/volunteer"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <ImageButton
+                android:layout_weight="3"
+                android:id="@+id/btn_news_do"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/donation"
+                android:background="@color/colorPrimaryDark"
+                />
+
+            <ImageButton
+                android:layout_weight="3"
+                android:id="@+id/btn_news_pro"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:src="@drawable/profile"
+                android:background="@color/colorPrimaryDark"
+                />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

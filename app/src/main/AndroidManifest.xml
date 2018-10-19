@@ -28,6 +28,7 @@
         <activity android:name=".CertificateActivity"></activity>
         <activity android:name=".VolunteerThanksActivity"></activity>
         <activity android:name=".DonationThanksActivity"></activity>
+        <activity android:name=".NewsActivity"></activity>
     </application>
 
 </manifest>

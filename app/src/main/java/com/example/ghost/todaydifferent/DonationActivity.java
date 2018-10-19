@@ -56,7 +56,7 @@ public class DonationActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(DonationActivity.this, VolunteerActivity.class);
+                intent.setClass(DonationActivity.this, NewsActivity.class);
                 startActivity(intent);
                 finish();
             }
