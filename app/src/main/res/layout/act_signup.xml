@@ -14,7 +14,6 @@
         android:gravity="center"
         android:layout_weight="12">
 
-
         <TextView
             android:id="@+id/txt_sign_nav"
             android:layout_width="wrap_content"
@@ -174,9 +173,7 @@
                 android:text="Register"
                 android:background="@color/colorLight"/>
         </LinearLayout>
-
     </LinearLayout>
-
 </LinearLayout>
 
 

@@ -91,10 +91,10 @@ public class ProfileActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent intent = new Intent();
+                /*Intent intent = new Intent();
                 intent.setClass(ProfileActivity.this, ProfileActivity.class);
                 startActivity(intent);
-                finish();
+                finish();*/
             }
         });
     }

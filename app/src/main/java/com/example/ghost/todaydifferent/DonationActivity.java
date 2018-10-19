@@ -14,6 +14,7 @@ public class DonationActivity extends Activity {
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
+    ImageButton btn_news;
     LinearLayout ll_do_project_1;
     Spinner spinner_type;
     Spinner spinner_filter;
@@ -48,7 +49,20 @@ public class DonationActivity extends Activity {
             }
         });
 
-        btn_volunteer = findViewById(R.id.btn_volunteer);
+        btn_news = findViewById(R.id.btn_do_news);
+        btn_news.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(DonationActivity.this, VolunteerActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btn_volunteer = findViewById(R.id.btn_do_vol);
         btn_volunteer.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -61,22 +75,20 @@ public class DonationActivity extends Activity {
             }
         });
 
-
-
-        btn_donation = findViewById(R.id.btn_donation);
+        btn_donation = findViewById(R.id.btn_do_do);
         btn_donation.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent intent = new Intent();
+                /*Intent intent = new Intent();
                 intent.setClass(DonationActivity.this, DonationActivity.class);
                 startActivity(intent);
-                finish();
+                finish();*/
             }
         });
 
-        btn_profile = findViewById(R.id.btn_profile);
+        btn_profile = findViewById(R.id.btn_do_pro);
         btn_profile.setOnClickListener(new View.OnClickListener() {
 
             @Override

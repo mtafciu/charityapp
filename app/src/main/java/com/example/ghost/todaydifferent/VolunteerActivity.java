@@ -15,6 +15,7 @@ public class VolunteerActivity extends Activity {
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
+    ImageButton btn_news;
     Spinner spinner_type;
     Spinner spinner_filter;
 
@@ -50,8 +51,8 @@ public class VolunteerActivity extends Activity {
             }
         });
 
-        btn_volunteer = findViewById(R.id.btn_volunteer);
-        btn_volunteer.setOnClickListener(new View.OnClickListener() {
+        btn_news = findViewById(R.id.btn_vol_news);
+        btn_news.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -63,7 +64,20 @@ public class VolunteerActivity extends Activity {
             }
         });
 
-        btn_donation = findViewById(R.id.btn_donation);
+        btn_volunteer = findViewById(R.id.btn_vol_vol);
+        btn_volunteer.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                /*Intent intent = new Intent();
+                intent.setClass(VolunteerActivity.this, VolunteerActivity.class);
+                startActivity(intent);
+                finish();*/
+            }
+        });
+
+        btn_donation = findViewById(R.id.btn_vol_do);
         btn_donation.setOnClickListener(new View.OnClickListener() {
 
             @Override
@@ -76,7 +90,7 @@ public class VolunteerActivity extends Activity {
             }
         });
 
-        btn_profile = findViewById(R.id.btn_profile);
+        btn_profile = findViewById(R.id.btn_vol_pro);
         btn_profile.setOnClickListener(new View.OnClickListener() {
 
             @Override
