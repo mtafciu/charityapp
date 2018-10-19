@@ -16,8 +16,6 @@ public class VolunteerProjectActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_volunteerproject);
-        img_projectImage = findViewById(R.id.img_projectImage);
-        img_projectImage.setImageResource(R.drawable.orphanstudents);
 
         btn_vol_pro_back = findViewById(R.id.btn_vol_pro_back);
         btn_vol_pro_back.setOnClickListener(new View.OnClickListener() {

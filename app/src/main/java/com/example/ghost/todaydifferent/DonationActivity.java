@@ -24,19 +24,6 @@ public class DonationActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_donation);
 
-        spinner_type = findViewById(R.id.spinner_donate_type);
-        ArrayAdapter<CharSequence> typeList = ArrayAdapter.createFromResource(DonationActivity.this,
-                R.array.do_type_list,
-                android.R.layout.simple_spinner_dropdown_item);
-        spinner_type.setAdapter(typeList);
-
-
-        spinner_filter = findViewById(R.id.spinner_donate_progress);
-        ArrayAdapter<CharSequence> filterList = ArrayAdapter.createFromResource(DonationActivity.this,
-                R.array.do_sort_list,
-                android.R.layout.simple_spinner_dropdown_item);
-        spinner_filter.setAdapter(filterList);
-
         ll_do_project_1 = findViewById(R.id.ll_do_project_1);
         ll_do_project_1.setOnClickListener(new View.OnClickListener() {
 

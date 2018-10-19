@@ -10,11 +10,11 @@
 
 
         <ImageView
-            android:id="@+id/img_projectImage"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            android:src="@drawable/do_school"/>
     </LinearLayout>
 
     <LinearLayout

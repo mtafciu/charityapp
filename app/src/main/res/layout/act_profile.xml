@@ -65,7 +65,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textSize="25sp"
-                android:text="Luka"
+                android:text="Daniel"
                 android:gravity="center"/>
             <TextView
                 android:layout_width="match_parent"

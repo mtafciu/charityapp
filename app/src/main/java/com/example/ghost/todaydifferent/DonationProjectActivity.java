@@ -16,8 +16,6 @@ public class DonationProjectActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_donationproject);
-        img_projectImage = findViewById(R.id.img_projectImage);
-        img_projectImage.setImageResource(R.drawable.orphanstudents);
 
         btn_do_pro_sign = findViewById(R.id.btn_do_pro_sign);
         btn_do_pro_sign.setOnClickListener(new View.OnClickListener() {

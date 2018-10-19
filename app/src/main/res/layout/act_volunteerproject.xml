@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -14,7 +15,8 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:scaleType="fitXY" />
+            android:scaleType="fitXY"
+            android:src="@drawable/vol_hourse"/>
     </LinearLayout>
 
     <LinearLayout
@@ -32,7 +34,7 @@
             android:textSize="20sp"
             android:textColor="@color/colorLight"
             android:textStyle="bold"
-            android:text="Volunteer in Mannheim -  Education projects"/>
+            android:text="Volunteer with horses"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -98,7 +100,7 @@
                     android:layout_marginTop="10dp"
                     android:layout_marginRight="10dp"
                     android:textSize="14sp"
-                    android:text="In this project, you are given the opportunity to volunteer in an orphanage to teach kids Math and English. Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your skills."
+                    android:text="The bond between humans and horses is already one-of-a-kind, but when combined with volunteer work it is sure to be an experience that won’t soon be forgotten. When working with mistreated horses, simply showing extra love and affection is also an equally important task. Volunteers placed on equine therapy projects may also get to assist in preparing for lessons and interacting with patients."
                     />
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -149,7 +151,7 @@
                         android:textSize="14sp"
                         android:layout_marginLeft="5dp"
                         android:textColor="@color/colorLight"
-                        android:text="Seckenheimer Landstraße 4A, 68163 Mannheim"
+                        android:text="74391 Erligheim Ortskern (Baden-Württemberg)"
                         />
                 </LinearLayout>
             </LinearLayout>

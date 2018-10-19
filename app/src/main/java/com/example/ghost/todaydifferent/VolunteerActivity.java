@@ -26,19 +26,6 @@ public class VolunteerActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_volunteer);
 
-        spinner_type = findViewById(R.id.spinner_loc);
-        ArrayAdapter<CharSequence> typeList = ArrayAdapter.createFromResource(VolunteerActivity.this,
-                R.array.vol_loc_list,
-                android.R.layout.simple_spinner_dropdown_item);
-        spinner_type.setAdapter(typeList);
-
-
-        spinner_filter = findViewById(R.id.spinner_date);
-        ArrayAdapter<CharSequence> filterList = ArrayAdapter.createFromResource(VolunteerActivity.this,
-                R.array.vol_date_list,
-                android.R.layout.simple_spinner_dropdown_item);
-        spinner_filter.setAdapter(filterList);
-
         ll_vo_project_1 = findViewById(R.id.ll_vo_project_1);
         ll_vo_project_1.setOnClickListener(new View.OnClickListener() {
 
