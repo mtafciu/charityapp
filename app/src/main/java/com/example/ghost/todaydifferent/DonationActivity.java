@@ -16,8 +16,6 @@ public class DonationActivity extends Activity {
     ImageButton btn_profile;
     ImageButton btn_news;
     LinearLayout ll_do_project_1;
-    Spinner spinner_type;
-    Spinner spinner_filter;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +31,7 @@ public class DonationActivity extends Activity {
                 Intent intent = new Intent();
                 intent.setClass(DonationActivity.this, DonationProjectActivity.class);
                 startActivity(intent);
+                //finish();
             }
         });
 

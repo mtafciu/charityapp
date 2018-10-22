@@ -48,7 +48,7 @@
 
                 <ImageButton
                     android:layout_weight="1"
-                    android:id="@+id/btn_vol_sort"
+                    android:id="@+id/btn_do_sort"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:background="@null"
@@ -62,7 +62,7 @@
 
                 <ImageButton
                     android:layout_weight="1"
-                    android:id="@+id/btn_vol_filter"
+                    android:id="@+id/btn_do_filter"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="10dp"
@@ -135,7 +135,7 @@
                                             android:paddingLeft="5dp"
                                             android:src="@android:drawable/star_off"/>
                                         <TextView
-                                            android:id="@+id/txt_tags"
+                                            android:id="@+id/txt_do_tags"
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
                                             android:layout_weight="1"

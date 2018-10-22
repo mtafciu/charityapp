@@ -10,6 +10,7 @@ import android.widget.ImageButton;
 public class ProfileActivity extends Activity {
     Button btn_pro_shop;
     Button btn_pro_certificate;
+    Button btn_pro_his;
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
@@ -41,6 +42,19 @@ public class ProfileActivity extends Activity {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(ProfileActivity.this, CertificateActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        btn_pro_his = findViewById(R.id.btn_pro_his);
+        btn_pro_his.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(ProfileActivity.this, HistoryActivity.class);
                 startActivity(intent);
                 //finish();
             }

@@ -16,8 +16,6 @@ public class VolunteerActivity extends Activity {
     ImageButton btn_donation;
     ImageButton btn_profile;
     ImageButton btn_news;
-    Spinner spinner_type;
-    Spinner spinner_filter;
 
     LinearLayout ll_vo_project_1;
 
@@ -35,6 +33,7 @@ public class VolunteerActivity extends Activity {
                 Intent intent = new Intent();
                 intent.setClass(VolunteerActivity.this, VolunteerProjectActivity.class);
                 startActivity(intent);
+                //finish();
             }
         });
 

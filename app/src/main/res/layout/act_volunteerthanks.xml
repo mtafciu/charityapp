@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ll_certificate"
+    android:id="@+id/ll_vol_thx"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
 
     <LinearLayout
-        android:id="@+id/ll_do_thx_nav"
+        android:id="@+id/ll_vol_thx_nav"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:background="#EEEEEE"
+        android:layout_weight="12"
         >
 
         <ImageButton
-            android:id="@+id/btn_vo_thx_back"
+            android:id="@+id/btn_vol_thx_nav_back"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_gravity="left"
@@ -24,7 +25,7 @@
             />
 
         <TextView
-            android:id="@+id/txt_vo_thx_nav"
+            android:id="@+id/txt_vol_thx_nav"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
@@ -37,7 +38,7 @@
 
 
         <ImageButton
-            android:id="@+id/btn_vo_thx_edit"
+            android:id="@+id/btn_vol_thx_edit"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_marginRight="20dp"
@@ -47,9 +48,74 @@
 
     </LinearLayout>
 
-    <ImageView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/volunteerthankspage"
-        android:layout_gravity="center_horizontal"/>
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="250dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/vol_pj_thx"
+                android:layout_gravity="center_horizontal" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:text="Dear Daniel,\n\nSmall effort makes today different.\nVolunteering is not only about giving. It’s a way of living. Thanks for having you here.\nYou’ve received 60 points. Congratulation!\n\nYours,\nTD Team"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="12">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:gravity="right"
+                >
+
+                <Button
+                    android:id="@+id/btn_vol_thx_back"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Back"
+                    android:background="@color/lightGrey"
+                    />
+
+                <Button
+                    android:id="@+id/btn_vol_thx_share"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Share"
+                    android:background="@color/colorAccent"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+    </LinearLayout>
 </LinearLayout>

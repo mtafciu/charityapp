@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/ll_vol_pj_join_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@color/colorLighter"
+        android:layout_weight="12">
+
+        <ImageButton
+            android:id="@+id/btn_vol_pj_join_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@null"
+            android:background="@color/colorLighter"/>
+
+        <TextView
+            android:id="@+id/txt_vol_pj_join_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:text="Profile"
+            android:gravity="center"/>
+
+
+        <ImageButton
+            android:id="@+id/btn_vol_pj_join_edit"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:src="@drawable/edit"
+            android:background="@color/colorLighter"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="2"
+                android:src="@drawable/vol_project_main_img"
+                android:scaleX="0.9" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="3"
+                android:src="@drawable/vol_pj_sign_person"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginRight="26dp"
+                android:layout_marginLeft="26dp"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_weight="3">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/ll_card_border"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/add"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:text="Invite another friend"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="10">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="3dp"
+                android:gravity="right"
+                >
+
+                <Button
+                    android:id="@+id/btn_vol_pj_sign_sign"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Sign up"
+                    android:background="@color/colorPrimaryDark"
+                    />
+
+                <Button
+                    android:id="@+id/btn_vol_pj_sign_back"
+                    android:layout_width="100dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Back"
+                    android:background="@color/colorPrimaryDark"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

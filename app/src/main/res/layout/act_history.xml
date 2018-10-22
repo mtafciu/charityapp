@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_history"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_weight="12"
+        android:id="@+id/ll_his_nav"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="#EEEEEE"
+        >
+
+        <ImageButton
+            android:id="@+id/btn_his_back"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="left"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/back"
+            android:background="#EEEEEE"
+            />
+
+        <TextView
+            android:id="@+id/txt_his_nav"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:layout_marginLeft="20dp"
+            android:textSize="20sp"
+            android:text="Coin Shop"
+            android:gravity="center_vertical"
+
+            />
+
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="right"
+            android:src="@null"
+            android:background="#EEEEEE"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="3">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:text="Current Project:"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:orientation="horizontal"
+                android:layout_marginRight="15dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/ll_card_border">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="80dp"
+                    android:layout_marginLeft="20dp"
+                    android:src="@drawable/qrcode"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical">
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:text="Help Refugees"
+                        android:textSize="15sp"
+                        />
+
+                    <TextView
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:text="October 25, 2018 @ 17:00 "
+                        android:textSize="10sp"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+
+                        <TextView
+                            android:layout_weight="1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginTop="5dp"
+                            android:text="L3, Mannheim, 68169"
+                            android:textSize="10sp"/>
+
+                        <ImageView
+                            android:layout_width="15dp"
+                            android:layout_height="wrap_content"
+                            android:src="@drawable/map"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_weight="1">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp"
+                android:text="Previous Contribution:"/>
+
+            <ScrollView
+                android:layout_height="match_parent"
+                android:layout_width="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingBottom="40dp"
+                    android:orientation="vertical">
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ll_card_border">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/home"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center_vertical">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="Virtual Home"
+                                android:textSize="15sp"
+                                />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:text="20 Coins"
+                                android:textSize="10sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_marginRight="15dp"
+                        android:layout_marginLeft="15dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@drawable/ll_card_border">
+
+                        <ImageView
+                            android:layout_width="60dp"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="20dp"
+                            android:src="@drawable/spotify"/>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:layout_marginLeft="20dp"
+                            android:layout_gravity="center_vertical">
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="SpoXXfy"
+                                android:textSize="15sp"
+                                />
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:text="50 Coins"
+                                android:textSize="10sp"/>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
