@@ -18,7 +18,7 @@
             android:layout_height="fill_parent"
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
-            android:src="@null"
+            android:src="@drawable/back"
             android:background="@color/colorLighter"/>
 
         <TextView
@@ -27,7 +27,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:textSize="18sp"
-            android:text="Profile"
+            android:text="Join in"
             android:gravity="center"/>
 
 
@@ -37,7 +37,7 @@
             android:layout_height="fill_parent"
             android:layout_marginRight="20dp"
             android:layout_gravity="right"
-            android:src="@drawable/edit"
+            android:src="@null"
             android:background="@color/colorLighter"/>
 
     </LinearLayout>

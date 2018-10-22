@@ -33,7 +33,7 @@ public class VolunteerProjectJoinActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerProjectJoinActivity.this, VolunteerThanksActivity.class);
+                intent.setClass(VolunteerProjectJoinActivity.this, VolunteerProjectTicketActivity.class);
                 startActivity(intent);
                 finish();
             }
