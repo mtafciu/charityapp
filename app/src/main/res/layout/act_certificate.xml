@@ -1,55 +1,116 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ll_certificate"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <LinearLayout
-        android:id="@+id/ll_cer_thx_nav"
+        android:id="@+id/ll_cert_nav"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#EEEEEE"
-        >
+        android:background="@color/colorLighter"
+        android:layout_weight="12">
 
         <ImageButton
-            android:id="@+id/btn_cer_thx_back"
+            android:id="@+id/btn_cert_back"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:src="@drawable/back"
-            android:background="#EEEEEE"
-            />
+            android:background="@color/colorLighter"/>
 
         <TextView
-            android:id="@+id/txt_cer_thx_nav"
+            android:id="@+id/txt_cert_nav"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="20dp"
-            android:textSize="15sp"
-            android:text="Thanks You For Your Donation"
-            android:gravity="center_vertical"
-
-            />
+            android:textSize="18sp"
+            android:text="Certificate"
+            android:gravity="center"/>
 
 
         <ImageButton
-            android:id="@+id/btn_cer_thx_edit"
+            android:id="@+id/btn_cert_edit"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_marginRight="20dp"
             android:layout_gravity="right"
             android:src="@null"
-            android:background="#EEEEEE"/>
+            android:background="@color/colorLighter"/>
 
     </LinearLayout>
 
-    <ImageView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/cert10000pts"
-        android:layout_gravity="center_horizontal"/>
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/img_10000_pts" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="Congratulation!"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="You have earned 10,000 points!\n Naturally we want to celebrate this by \n giving you a merit on your profile."/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal">
+
+
+            <ImageButton
+                android:id="@+id/btn_cert_share"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:src="@drawable/btn_share_friend"
+                />
+            <ImageButton
+                android:id="@+id/btn_cert_his"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:src="@drawable/btn_see_his"
+                />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>

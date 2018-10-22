@@ -11,7 +11,7 @@ import android.widget.Spinner;
 
 public class CertificateActivity extends Activity {
 
-    ImageButton btn_cer_thx_back;
+    ImageButton btn_cert_back;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -19,8 +19,8 @@ public class CertificateActivity extends Activity {
         setContentView(R.layout.act_certificate);
 
 
-        btn_cer_thx_back = findViewById(R.id.btn_cer_thx_back);
-        btn_cer_thx_back.setOnClickListener(new View.OnClickListener() {
+        btn_cert_back = findViewById(R.id.btn_cert_back);
+        btn_cert_back.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
