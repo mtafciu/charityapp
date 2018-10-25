@@ -209,7 +209,8 @@
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp"
-                android:gravity="right"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 >
 
                 <Button
@@ -233,6 +234,7 @@
                     android:layout_marginBottom="5dp"
                     android:text="Donate NOW"
                     android:background="@color/colorLight"
+                    android:textColor="@color/colorPrimaryDark"
                     />
             </LinearLayout>
         </LinearLayout>

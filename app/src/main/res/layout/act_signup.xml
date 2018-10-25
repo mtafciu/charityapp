@@ -154,24 +154,29 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="horizontal"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:gravity="center_horizontal">
 
             <Button
                 android:id="@+id/btn_sign_cancel"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
+                android:layout_weight="1"
                 android:textSize="13sp"
                 android:text="Cancel"
                 android:background="@color/white"/>
 
             <Button
                 android:id="@+id/btn_sign_register"
-                android:layout_width="150dp"
+                android:layout_width="match_parent"
                 android:layout_height="30dp"
                 android:layout_marginLeft="10dp"
+                android:layout_weight="1"
                 android:textSize="13sp"
                 android:text="Register"
-                android:background="@color/colorLight"/>
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>
