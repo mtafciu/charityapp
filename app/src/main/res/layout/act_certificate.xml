@@ -92,6 +92,15 @@
             android:layout_marginRight="20dp"
             android:gravity="center_horizontal">
 
+            <ImageButton
+                android:id="@+id/btn_cert_his"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:src="@drawable/btn_email_cert"
+                />
 
             <ImageButton
                 android:id="@+id/btn_cert_share"
@@ -102,15 +111,7 @@
                 android:background="@null"
                 android:src="@drawable/btn_share_friend"
                 />
-            <ImageButton
-                android:id="@+id/btn_cert_his"
-                android:layout_width="wrap_content"
-                android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@null"
-                android:src="@drawable/btn_see_his"
-                />
+
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

@@ -32,6 +32,7 @@
         <activity android:name=".HistoryActivity"></activity>
         <activity android:name=".VolunteerProjectJoinActivity"></activity>
         <activity android:name=".VolunteerProjectTicketActivity"></activity>
+        <activity android:name=".DonationProjectNowActivity"></activity>
     </application>
 
 </manifest>

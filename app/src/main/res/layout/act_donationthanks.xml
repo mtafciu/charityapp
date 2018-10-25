@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/ll_do_thx"
+    android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:id="@+id/ll_do_thx_nav"
         android:layout_width="match_parent"
-        android:layout_height="40dp"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#EEEEEE"
-        >
+        android:background="@color/colorLighter"
+        android:layout_weight="12">
 
         <ImageButton
             android:id="@+id/btn_do_thx_back"
@@ -20,19 +19,16 @@
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:src="@drawable/back"
-            android:background="#EEEEEE"
-            />
+            android:background="@color/colorLighter"/>
 
         <TextView
             android:id="@+id/txt_do_thx_nav"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="20dp"
-            android:textSize="15sp"
-            android:text="Thanks You For Your Donation"
-            android:gravity="center_vertical"
-            />
+            android:textSize="18sp"
+            android:text="Thank you"
+            android:gravity="center"/>
 
 
         <ImageButton
@@ -42,13 +38,88 @@
             android:layout_marginRight="20dp"
             android:layout_gravity="right"
             android:src="@null"
-            android:background="#EEEEEE"/>
+            android:background="@color/colorLighter"/>
 
     </LinearLayout>
 
-    <ImageView
+
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:src="@drawable/donationthankspage"
-        android:layout_gravity="center_horizontal"/>
+        android:orientation="vertical"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/img_big_heart" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="Thank you for your donation!"
+                android:textSize="16sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:gravity="center"
+                android:text="You have successfully obtained \n 10 points for this program. \n We appreciate your generosity!"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:gravity="center_horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_do_thx_continue"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:src="@drawable/btn_do"
+                />
+
+            <ImageButton
+                android:id="@+id/btn_do_thx_share"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:src="@drawable/btn_share_friend"
+                />
+            <ImageButton
+                android:id="@+id/btn_do_thx_his"
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@null"
+                android:src="@drawable/btn_see_his"
+                />
+        </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
