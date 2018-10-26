@@ -37,9 +37,11 @@
             android:id="@+id/btn_pro_edit"
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
-            android:layout_marginRight="20dp"
+            android:layout_marginRight="10dp"
             android:layout_gravity="right"
             android:src="@drawable/edit"
+            android:scaleX="0.6"
+            android:scaleY="0.5"
             android:background="@color/colorLighter"/>
 
     </LinearLayout>
@@ -95,11 +97,11 @@
 
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="3dp"
+                android:layout_height="2dp"
                 android:layout_marginTop="20dp"
                 android:layout_marginRight="20dp"
                 android:layout_marginLeft="20dp"
-                android:background="@color/colorLight"
+                android:background="@color/colorPrimaryDark"
                 android:gravity="center"/>
 
             <LinearLayout

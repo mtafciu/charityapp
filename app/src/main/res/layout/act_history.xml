@@ -5,7 +5,6 @@
     android:layout_height="match_parent"
     android:orientation="vertical">
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -55,10 +54,12 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:orientation="vertical"
-            android:layout_weight="3">
+            android:layout_weight="2">
+
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
                 android:textColor="@color/colorPrimaryDark"
                 android:textSize="15sp"
                 android:text="Current Project:"/>
@@ -77,6 +78,7 @@
                     android:layout_width="60dp"
                     android:layout_height="80dp"
                     android:layout_marginLeft="20dp"
+                    android:layout_gravity="center_vertical"
                     android:src="@drawable/qrcode"/>
 
                 <LinearLayout
@@ -106,20 +108,15 @@
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:orientation="horizontal"
+                        android:layout_marginTop="5dp"
                         >
 
                         <TextView
                             android:layout_weight="1"
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
-                            android:layout_marginTop="5dp"
                             android:text="L3, Mannheim, 68169"
                             android:textSize="10sp"/>
-
-                        <ImageView
-                            android:layout_width="15dp"
-                            android:layout_height="wrap_content"
-                            android:src="@drawable/map"/>
                     </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
@@ -135,6 +132,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textColor="@color/colorPrimaryDark"
+                android:layout_marginTop="20dp"
                 android:textSize="15sp"
                 android:text="Previous Contribution:"/>
 
@@ -162,29 +160,46 @@
                             android:layout_width="60dp"
                             android:layout_height="80dp"
                             android:layout_marginLeft="20dp"
-                            android:src="@drawable/home"/>
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/img_build_school"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_marginLeft="20dp"
+                            android:paddingTop="10dp"
+                            android:paddingBottom="10dp"
                             android:layout_gravity="center_vertical">
 
                             <TextView
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:text="Virtual Home"
+                                android:layout_height="wrap_content"
+                                android:text="Build a School"
                                 android:textSize="15sp"
                                 />
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:gravity="left"
+                                android:src="@drawable/stars"/>
 
                             <TextView
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="5dp"
-                                android:text="20 Coins"
+                                android:text="October 11, 2018"
+                                android:textSize="10sp"/>
+
+                            <TextView
+                                android:layout_weight="1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_marginTop="5dp"
+                                android:text="B6, Mannheim, 68169"
                                 android:textSize="10sp"/>
                         </LinearLayout>
                     </LinearLayout>
@@ -204,29 +219,83 @@
                             android:layout_width="60dp"
                             android:layout_height="80dp"
                             android:layout_marginLeft="20dp"
-                            android:src="@drawable/spotify"/>
+                            android:layout_gravity="center_vertical"
+                            android:src="@drawable/img_feed_children"/>
 
                         <LinearLayout
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:orientation="vertical"
                             android:layout_marginLeft="20dp"
+                            android:paddingTop="5dp"
+                            android:paddingBottom="5dp"
                             android:layout_gravity="center_vertical">
 
                             <TextView
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
-                                android:text="SpoXXfy"
+                                android:text="Feed Children"
                                 android:textSize="15sp"
                                 />
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:orientation="horizontal"
+                                android:layout_marginTop="5dp">
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/icon_heart"
+                                    android:background="@null"
+                                    android:scaleY="0.5"
+                                    android:scaleX="0.5"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="100 Euro"
+                                    android:textSize="10sp"/>
+
+                                <ImageView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:src="@drawable/icon_vector"
+                                    android:layout_marginLeft="15dp"
+                                    android:background="@null"
+                                    android:scaleY="0.5"
+                                    android:scaleX="0.5"/>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:text="10 pts"
+                                    android:textSize="10sp"/>
+
+                            </LinearLayout>
+
+                            <ProgressBar
+                                style="@android:style/Widget.ProgressBar.Horizontal"
+                                android:layout_weight="2"
+                                android:layout_width="match_parent"
+                                android:layout_height="10dp"
+                                android:layout_marginLeft="1dp"
+                                android:layout_marginRight="5dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_gravity="center_vertical"
+                                android:background="@color/colorPrimaryDark"
+                                android:progressBackgroundTint="@color/colorPrimary"
+                                android:progressTint="@color/colorAccent"
+                                android:max="100"
+                                android:progress="30"/>
 
                             <TextView
                                 android:layout_weight="1"
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
                                 android:layout_marginTop="5dp"
-                                android:text="50 Coins"
+                                android:text="$68.313.333/$100.000.000"
                                 android:textSize="10sp"/>
                         </LinearLayout>
                     </LinearLayout>
