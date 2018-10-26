@@ -194,7 +194,8 @@
             android:layout_weight="11"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:background="@color/lighterGrey">
 
 
             <ImageButton
@@ -203,7 +204,9 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:src="@drawable/news_icon"
-                android:background="@color/colorPrimaryDark"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:background="@color/lighterGrey"
                 />
 
             <ImageButton
@@ -211,8 +214,10 @@
                 android:id="@+id/btn_pro_vol"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/volunteer"
-                android:background="@color/colorPrimaryDark"
+                android:src="@drawable/vol_icon"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:background="@color/lighterGrey"
                 />
 
 
@@ -221,8 +226,10 @@
                 android:id="@+id/btn_pro_do"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/donation"
-                android:background="@color/colorPrimaryDark"
+                android:src="@drawable/do_icon"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:background="@color/lighterGrey"
                 />
 
             <ImageButton
@@ -230,8 +237,10 @@
                 android:id="@+id/btn_pro_pro"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
-                android:src="@drawable/profile"
-                android:background="@color/colorAccent"
+                android:src="@drawable/user_icon_red"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:background="@color/lighterGrey"
                 />
         </LinearLayout>
 

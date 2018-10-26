@@ -4,11 +4,9 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.LinearLayout;
-import android.widget.Spinner;
 
 public class NewsActivity extends Activity {
     Button btn_log_in;
@@ -24,7 +22,6 @@ public class NewsActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_news);
-
 
         btn_log_in = findViewById(R.id.btn_news_log_in);
         btn_log_in.setOnClickListener(new View.OnClickListener() {
@@ -54,18 +51,6 @@ public class NewsActivity extends Activity {
                 Intent intent = new Intent();
                 intent.setClass(NewsActivity.this, VolunteerProjectActivity.class);
                 startActivity(intent);
-            }
-        });
-
-        btn_news = findViewById(R.id.btn_news_news);
-        btn_news.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                /*Intent intent = new Intent();
-                intent.setClass(NewsActivity.this, NewsActivity.class);
-                startActivity(intent);
-                finish();*/
             }
         });
 

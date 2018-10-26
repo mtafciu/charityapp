@@ -9,7 +9,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
 
-        <activity android:name=".MainPageActivity">
+        <activity android:name=".NewsActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,7 +28,7 @@
         <activity android:name=".CertificateActivity"></activity>
         <activity android:name=".VolunteerThanksActivity"></activity>
         <activity android:name=".DonationThanksActivity"></activity>
-        <activity android:name=".NewsActivity"></activity>
+        <activity android:name=".MainPageActivity"></activity>
         <activity android:name=".HistoryActivity"></activity>
         <activity android:name=".VolunteerProjectJoinActivity"></activity>
         <activity android:name=".VolunteerProjectTicketActivity"></activity>
