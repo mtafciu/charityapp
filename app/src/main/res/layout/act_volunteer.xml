@@ -461,6 +461,13 @@
                 android:background="@color/lighterGrey"
                 />
 
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightGrey"/>
+
             <ImageButton
                 android:layout_weight="3"
                 android:id="@+id/btn_vol_vol"
@@ -472,6 +479,13 @@
                 android:background="@color/lighterGrey"
                 />
 
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightGrey"/>
+
             <ImageButton
                 android:layout_weight="3"
                 android:id="@+id/btn_vol_do"
@@ -482,6 +496,13 @@
                 android:scaleY="0.5"
                 android:background="@color/lighterGrey"
                 />
+
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightGrey"/>
 
             <ImageButton
                 android:layout_weight="3"

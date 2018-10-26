@@ -212,6 +212,13 @@
                 android:background="@color/lighterGrey"
                 />
 
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightGrey"/>
+
             <ImageButton
                 android:layout_weight="3"
                 android:id="@+id/btn_pro_vol"
@@ -223,6 +230,12 @@
                 android:background="@color/lighterGrey"
                 />
 
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightGrey"/>
 
             <ImageButton
                 android:layout_weight="3"
@@ -235,6 +248,13 @@
                 android:background="@color/lighterGrey"
                 />
 
+            <TextView
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@color/lightGrey"/>
+            
             <ImageButton
                 android:layout_weight="3"
                 android:id="@+id/btn_pro_pro"
