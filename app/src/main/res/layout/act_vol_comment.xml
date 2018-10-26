@@ -15,7 +15,7 @@
         <ImageButton
             android:id="@+id/btn_vol_pj_cmt_nav_back"
             android:layout_width="wrap_content"
-            android:layout_height="fill_parent"
+            android:layout_height="match_parent"
             android:layout_gravity="left"
             android:layout_marginLeft="20dp"
             android:src="@drawable/back"
@@ -27,6 +27,7 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
             android:text="Donate Now"
             android:gravity="center"/>
 

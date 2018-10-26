@@ -20,6 +20,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
             android:text="News"
             android:gravity="center"/>
 
@@ -115,7 +116,7 @@
                             android:layout_height="35dp"
                             android:text="Log In"
                             android:textColor="@color/colorPrimaryDark"
-                            android:background="@color/colorLight"
+                            android:background="@color/colorLighter"
                             android:textSize="16sp"
                             android:layout_weight="1"
                             android:gravity="center"/>
@@ -124,7 +125,7 @@
                             android:id="@+id/btn_news_sign_up"
                             android:layout_width="match_parent"
                             android:layout_height="35dp"
-                            android:background="@color/colorLight"
+                            android:background="@color/colorLighter"
                             android:text="Join Now"
                             android:textColor="@color/colorPrimaryDark"
                             android:textSize="16sp"

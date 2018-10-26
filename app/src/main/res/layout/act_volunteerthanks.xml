@@ -30,7 +30,8 @@
             android:layout_height="fill_parent"
             android:layout_weight="1"
             android:layout_marginLeft="20dp"
-            android:textSize="15sp"
+            android:textSize="18sp"
+            android:textColor="@color/colorPrimaryDark"
             android:text="Ticket"
             android:gravity="center_vertical"
 
