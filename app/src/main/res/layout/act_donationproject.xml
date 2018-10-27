@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
 
     <LinearLayout
@@ -14,142 +15,178 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            android:src="@drawable/do_school"/>
+            android:src="@drawable/img_farmer"/>
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginTop="10dp"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
 
         <TextView
-            android:layout_marginTop="10dp"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="20sp"
+            android:layout_marginLeft="5dp"
+            android:clickable="true"
+            android:text="Help Farmers"
             android:textColor="@color/colorLight"
-            android:textStyle="bold"
-            android:text="Donation in Mannheim -  Education projects"/>
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_gravity="left"
+            android:layout_marginLeft="5dp"
             android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Farmer in Deutschland"
+                android:textSize="12sp"
+                android:textColor="@color/colorLight"/>
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/stars"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+            <ProgressBar
+                style="@android:style/Widget.ProgressBar.Horizontal"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="10dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="5dp"
+                android:layout_gravity="center_vertical"
+                android:background="@color/colorPrimaryDark"
+                android:progressBackgroundTint="@color/colorPrimary"
+                android:progressTint="@color/colorAccent"
+                android:max="100"
+                android:progress="68"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="8"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="5dp"
+                android:text="68 %"
+                android:textSize="13sp"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="horizontal">
+
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="15dp"
+                    android:src="@drawable/calendar"/>
                 <TextView
-                    android:id="@+id/txt_do_pro_tags"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
                     android:clickable="true"
-                    android:text="Children, Education"
+                    android:text="12. Oct, 2018 @ 10:00"
                     android:textSize="12sp"
                     android:textStyle="italic"
                     android:textColor="@color/colorLight"/>
             </LinearLayout>
+
             <LinearLayout
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp">
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal">
+
                 <ImageView
                     android:layout_width="20dp"
-                    android:layout_height="20dp"
-                    android:src="@android:drawable/ic_menu_mylocation"/>
+                    android:layout_height="match_parent"
+                    android:src="@drawable/icon_heart"/>
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_weight="1"
+                    android:layout_marginLeft="5dp"
                     android:clickable="true"
-                    android:text="400 m"
+                    android:text="$68.313.333/$100.000.000"
                     android:textSize="12sp"
                     android:textStyle="italic"
                     android:textColor="@color/colorLight"/>
+
             </LinearLayout>
         </LinearLayout>
 
         <ScrollView
             android:layout_weight="8"
-            android:layout_height="match_parent"
+            android:layout_height="fill_parent"
             android:layout_width="match_parent">
 
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
-                <TextView
-                    android:id="@+id/txt_do_projectDescription"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:layout_marginRight="10dp"
-                    android:textSize="14sp"
-                    android:text="In this project, you are given the opportunity to volunteer in an orphanage to teach kids Math and English. Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your skills."
-                    />
-                <LinearLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="10dp"
-                    android:layout_gravity="left">
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="20dp"
-                        android:src="@android:drawable/ic_menu_call"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="14sp"
-                        android:text="Phone:"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="14sp"
-                        android:layout_marginLeft="5dp"
-                        android:textColor="@color/colorLight"
-                        android:text="+49 185 888 54 54"
-                        />
-                </LinearLayout>
 
-                <LinearLayout
+                <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:layout_marginTop="3dp"
-                    android:layout_marginRight="30dp"
-                    android:layout_gravity="left">
-                    <ImageView
-                        android:layout_width="30dp"
-                        android:layout_height="20dp"
-                        android:src="@android:drawable/ic_menu_mylocation"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="14sp"
-                        android:text="Address:"
-                        />
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:textSize="14sp"
-                        android:layout_marginLeft="5dp"
-                        android:textColor="@color/colorLight"
-                        android:text="Seckenheimer Landstraße 4A, 68163 Mannheim"
-                        />
-                </LinearLayout>
+                    android:text="Project Introduction"
+                    android:textStyle="bold"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Seed is the foundation of our food and agricultural systems. As the global seed industry consolidates, the biodiversity of our food chain and farmers' access to adaptable seed diminishes. "
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Orgnaisation Introduction"
+                    android:textStyle="bold"
+                    android:textSize="13sp"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:text="Farmer in Deutschland nonprofit that advances ethical seed solutions to meet food and farming needs in a changing world."/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="13sp"
+                    android:text="What we need from you"
+                    android:textStyle="bold"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="92% of all money given to Farmer in Deutschland goes directly to delivering conservation results."
+                    android:textSize="13sp"/>
+
+
             </LinearLayout>
         </ScrollView>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
             android:orientation="horizontal"
             android:layout_marginTop="3dp"
             >
@@ -159,11 +196,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:layout_marginLeft="10dp"
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:text="Back"
-                android:background="@color/colorPrimaryDark"
+                android:background="@color/white"
                 />
 
             <Button
@@ -172,13 +208,12 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginBottom="5dp"
-                android:text="Donate"
+                android:text="Sign up"
                 android:background="@color/colorLight"
                 android:textColor="@color/colorPrimaryDark"
                 />
         </LinearLayout>
-
-
     </LinearLayout>
 </LinearLayout>
