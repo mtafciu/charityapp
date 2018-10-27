@@ -33,6 +33,7 @@
         <activity android:name=".VolunteerProjectTicketActivity"></activity>
         <activity android:name=".DonationProjectNowActivity"></activity>
         <activity android:name=".VolunteerCommentActivity"></activity>
+        <activity android:name=".VolunteerProjectRefugeeActivity"></activity>
     </application>
 
 </manifest>

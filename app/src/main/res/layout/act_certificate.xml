@@ -29,6 +29,7 @@
             android:layout_weight="1"
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"
+            android:textStyle="bold"
             android:text="Certificate"
             android:gravity="center"/>
 

@@ -28,6 +28,7 @@
             android:layout_weight="1"
             android:textSize="18sp"
             android:text="Thank you"
+            android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"
             android:gravity="center"/>
 

@@ -33,6 +33,7 @@
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"
             android:text="Ticket"
+            android:textStyle="bold"
             android:gravity="center_vertical"
 
             />

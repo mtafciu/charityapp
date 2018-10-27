@@ -22,6 +22,7 @@
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"
             android:text="Volunteer Program"
+            android:textStyle="bold"
             android:gravity="center"/>
 
     </LinearLayout>
@@ -107,37 +108,37 @@
                         android:layout_height="match_parent"
                         android:paddingBottom="40dp"
                         android:orientation="vertical">
+
                         <LinearLayout
-                            android:id="@+id/ll_vo_project_1"
+                            android:id="@+id/ll_vo_project_ref"
                             android:layout_width="match_parent"
                             android:layout_height="wrap_content"
                             android:layout_gravity="center_vertical"
                             android:layout_weight="1"
                             android:layout_marginTop="20dp"
-                            android:layout_marginLeft="5dp"
-                            android:layout_marginRight="5dp"
                             android:orientation="vertical"
                             android:background="@drawable/ll_card_border">
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="250dp"
+                                android:layout_height="180dp"
+                                android:scaleType="fitXY"
                                 android:layout_marginTop="13dp"
-                                android:src="@drawable/vol_hourse" />
+                                android:src="@drawable/img_refuge" />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_vertical"
-                                android:paddingRight="5dp"
-                                android:paddingLeft="5dp"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
                                 android:orientation="vertical">
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="5dp"
                                     android:clickable="true"
-                                    android:text="Volunteer with horses"
+                                    android:text="Help Refugees"
                                     android:textColor="@color/colorLight"
                                     android:textSize="15sp"
                                     android:textStyle="bold" />
@@ -145,135 +146,79 @@
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="left"
-                                    android:layout_marginLeft="10dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginTop="5dp"
+                                    android:layout_marginLeft="5dp"
                                     android:orientation="horizontal">
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content">
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/star_off"/>
-                                        <TextView
-                                            android:id="@+id/txt_vol_tags"
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:clickable="true"
-                                            android:text="Animal"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-                                    </LinearLayout>
-                                    <LinearLayout
+
+                                    <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp">
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/ic_menu_mylocation"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:clickable="true"
-                                            android:text="400 m"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-                                    </LinearLayout>
+                                        android:text="Goodman e.v"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
                                     android:layout_weight="1"
-                                    android:text="The bond between humans and horses is already one-of-a-kind, but when combined with volunteer work it is sure to be an experience that won’t soon be forgotten. When working with mistreated horses..."
+                                    android:layout_marginLeft="5dp"
+                                    android:text="Many people are still fleeing war, hunger, persecution from their home countries. Many of them have been in Mannheim for some time now, are attending..."
                                     android:textSize="13sp" />
-                            </LinearLayout>
-                        </LinearLayout>
 
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:layout_marginTop="20dp"
-                            android:orientation="vertical"
-                            android:background="@drawable/ll_card_border">
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="250dp"
-                                android:scaleType="fitXY"
-                                android:layout_marginTop="13dp"
-                                android:src="@drawable/childrenschool" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:orientation="vertical">
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:clickable="true"
-                                    android:text="Volunteer in a Kindergarten"
-                                    android:textColor="@color/colorLight"
-                                    android:textSize="15sp"
-                                    android:textStyle="bold" />
                                 <LinearLayout
                                     android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="left"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
                                     android:orientation="horizontal">
                                     <LinearLayout
                                         android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content">
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
                                         <ImageView
                                             android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/star_off"/>
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:layout_weight="1"
+                                            android:layout_marginLeft="5dp"
                                             android:clickable="true"
                                             android:text="Children, Education"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
+
                                     </LinearLayout>
+
                                     <LinearLayout
                                         android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp">
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="30dp"
+                                        android:orientation="horizontal">
+
                                         <ImageView
                                             android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/ic_menu_mylocation"/>
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/calendar"/>
                                         <TextView
                                             android:layout_width="wrap_content"
                                             android:layout_height="wrap_content"
-                                            android:layout_weight="1"
+                                            android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="1.5 KM"
+                                            android:text="12. Oct, 2018"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
+
                                     </LinearLayout>
                                 </LinearLayout>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="The school is looking for kindergarten teaching assistant volunteers who are interested in interacting with children between 5 and 6 years old...."
-                                    android:textSize="13sp" />
                             </LinearLayout>
                         </LinearLayout>
 
@@ -287,94 +232,17 @@
                             android:background="@drawable/ll_card_border">
                             <ImageView
                                 android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_marginTop="13dp"
+                                android:layout_height="180dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/kidscamp" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:orientation="vertical">
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:clickable="true"
-                                    android:text="Volunteer in a youth camp"
-                                    android:textColor="@color/colorLight"
-                                    android:textSize="15sp"
-                                    android:textStyle="bold" />
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_gravity="left"
-                                    android:orientation="horizontal">
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content">
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/star_off"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:clickable="true"
-                                            android:text="Children"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-                                    </LinearLayout>
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp">
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/ic_menu_mylocation"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:clickable="true"
-                                            android:text="4.9 KM"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-                                    </LinearLayout>
-                                </LinearLayout>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="We are looking for volunteers for a youth camp. It starts on November and it´s in the Black forest. We offer a fun and relaxing environment for the children. Please bring enthusiasm and energy..."
-                                    android:textSize="13sp" />
-                            </LinearLayout>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:layout_marginTop="20dp"
-                            android:orientation="vertical"
-                            android:background="@drawable/ll_card_border">
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="250dp"
                                 android:layout_marginTop="13dp"
-                                android:scaleType="fitXY"
                                 android:src="@drawable/teachgerman" />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="wrap_content"
                                 android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
                                 android:orientation="vertical">
                                 <TextView
                                     android:layout_width="match_parent"
@@ -386,54 +254,308 @@
                                     android:textColor="@color/colorLight"
                                     android:textSize="15sp"
                                     android:textStyle="bold" />
+
                                 <LinearLayout
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
-                                    android:layout_gravity="left"
+                                    android:layout_marginLeft="5dp"
                                     android:orientation="horizontal">
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content">
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/star_off"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:clickable="true"
-                                            android:text="Education"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-                                    </LinearLayout>
-                                    <LinearLayout
+
+                                    <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp">
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="20dp"
-                                            android:src="@android:drawable/ic_menu_mylocation"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_weight="1"
-                                            android:clickable="true"
-                                            android:text="8.3 KM"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-                                    </LinearLayout>
+                                        android:text="Goodman e.v"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
                                 </LinearLayout>
                                 <TextView
                                     android:layout_width="match_parent"
                                     android:layout_height="wrap_content"
                                     android:layout_weight="1"
                                     android:layout_marginLeft="5dp"
-                                    android:text="We are looking for volunteers To assist refugees to learn German. The volunteers will engage with refugess in fun activities that require communication. This will help refugees practice their German skills and at the same time... "
+                                    android:text="We are looking for volunteers To assist refugees to learn German. The volunteers will engage with refugess in fun activities that require communication. This will help refugees practice their German skills and at the same time..."
                                     android:textSize="13sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="Children, Education"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="30dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/calendar"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="14. Oct, 2018"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/ll_card_border">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="fitXY"
+                                android:layout_marginTop="13dp"
+                                android:src="@drawable/vol_hourse" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:clickable="true"
+                                    android:text="Volunteer with horses"
+                                    android:textColor="@color/colorLight"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Goodman e.v"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="The bond between humans and horses is already one-of-a-kind, but when combined with volunteer work it is sure to be an experience that won’t soon be forgotten. When working with mistreated horses..."
+                                    android:textSize="13sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="Animal"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="30dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/calendar"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="13. Oct, 2018"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/ll_card_border">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="fitXY"
+                                android:layout_marginTop="13dp"
+                                android:src="@drawable/kidscamp" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:clickable="true"
+                                    android:text="Volunteer in a youth camp"
+                                    android:textColor="@color/colorLight"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="YMCA"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="We are looking for volunteers for a youth camp. It starts on November and it´s in the Black forest. We offer a fun and relaxing environment for the children. Please bring enthusiasm and energy..."
+                                    android:textSize="13sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="Children, Education"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="30dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/calendar"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="02. Nov, 2018"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
                             </LinearLayout>
                         </LinearLayout>
 

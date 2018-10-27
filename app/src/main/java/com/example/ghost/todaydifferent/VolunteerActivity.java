@@ -17,15 +17,29 @@ public class VolunteerActivity extends Activity {
     ImageButton btn_profile;
     ImageButton btn_news;
 
-    LinearLayout ll_vo_project_1;
+    LinearLayout ll_vo_project_ref;
+    LinearLayout ll_vo_project_horse;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_volunteer);
 
-        ll_vo_project_1 = findViewById(R.id.ll_vo_project_1);
-        ll_vo_project_1.setOnClickListener(new View.OnClickListener() {
+        ll_vo_project_ref = findViewById(R.id.ll_vo_project_ref);
+        ll_vo_project_ref.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(VolunteerActivity.this, VolunteerProjectRefugeeActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        /*ll_vo_project_horse = findViewById(R.id.ll_vo_project_horse);
+        ll_vo_project_horse.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -35,7 +49,8 @@ public class VolunteerActivity extends Activity {
                 startActivity(intent);
                 //finish();
             }
-        });
+        });*/
+
 
         btn_news = findViewById(R.id.btn_vol_news);
         btn_news.setOnClickListener(new View.OnClickListener() {

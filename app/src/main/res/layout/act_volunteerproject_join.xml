@@ -29,6 +29,7 @@
             android:textColor="@color/colorPrimaryDark"
             android:textSize="18sp"
             android:text="Join in"
+            android:textStyle="bold"
             android:gravity="center"/>
 
 
@@ -130,7 +131,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
                     android:text="Cancel"
-                    android:background="@color/lightGrey"
+                    android:background="@color/white"
                     />
 
                 <Button

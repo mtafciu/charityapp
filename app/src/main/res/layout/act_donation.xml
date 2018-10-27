@@ -22,6 +22,7 @@
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"
             android:text="Donation Opportunity"
+            android:textStyle="bold"
             android:gravity="center"/>
 
     </LinearLayout>

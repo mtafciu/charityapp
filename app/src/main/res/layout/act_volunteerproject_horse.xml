@@ -171,7 +171,7 @@
                 android:layout_marginTop="5dp"
                 android:layout_marginBottom="5dp"
                 android:text="Back"
-                android:background="@color/lightGrey"
+                android:background="@color/white"
                 />
 
             <Button
@@ -180,6 +180,7 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginBottom="5dp"
                 android:text="Sign up"
                 android:background="@color/colorLight"
