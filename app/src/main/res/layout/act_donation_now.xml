@@ -77,6 +77,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:text="I want to give:"
+                    android:textStyle="bold"
                     android:textSize="13sp"/>
 
                 <LinearLayout
@@ -140,60 +141,83 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="13sp"
+                    android:textStyle="bold"
                     android:text="Frequency"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
 
                     <Button
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="40dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="5dp"
                         android:background="@color/lighterGrey"
-                        android:text="On Time"
+                        android:text="One Time"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="15sp"/>
+                        android:textSize="12sp"/>
                     <Button
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="40dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="5dp"
                         android:background="@color/lighterGrey"
                         android:text="Monthly"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="15sp"/>
+                        android:textSize="12sp"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/lighterGrey"
+                        android:text="Annually"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"/>
                 </LinearLayout>
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:textSize="13sp"
-                    android:text="Payment Methods:"/>
+                    android:text="Payment Methods:"
+                    android:textStyle="bold"
+                    android:layout_marginTop="10dp"/>
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal">
+                    android:orientation="horizontal"
+                    android:layout_marginTop="5dp">
 
                     <Button
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="40dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="5dp"
                         android:background="@color/lighterGrey"
                         android:text="Bank"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="15sp"/>
+                        android:textSize="12sp"/>
                     <Button
                         android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
+                        android:layout_height="40dp"
                         android:layout_weight="1"
                         android:layout_marginLeft="5dp"
                         android:background="@color/lighterGrey"
                         android:text="Paypal"
                         android:textColor="@color/colorPrimaryDark"
-                        android:textSize="15sp"/>
+                        android:textSize="12sp"/>
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="5dp"
+                        android:background="@color/lighterGrey"
+                        android:text="Credit Card"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:textSize="12sp"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
