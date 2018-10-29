@@ -42,17 +42,17 @@ public class NewsActivity extends Activity {
         });
 
 
-        /*ll_news_project_1 = findViewById(R.id.ll_news_project_1);
+        ll_news_project_1 = findViewById(R.id.ll_news_project_1);
         ll_news_project_1.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(NewsActivity.this, VolunteerProjectActivity.class);
+                intent.setClass(NewsActivity.this, NewsProjectActivity.class);
                 startActivity(intent);
             }
-        });*/
+        });
 
         btn_volunteer = findViewById(R.id.btn_news_vol);
         btn_volunteer.setOnClickListener(new View.OnClickListener() {

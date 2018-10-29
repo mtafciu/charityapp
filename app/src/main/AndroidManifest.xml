@@ -34,6 +34,7 @@
         <activity android:name=".DonationProjectNowActivity"></activity>
         <activity android:name=".VolunteerCommentActivity"></activity>
         <activity android:name=".VolunteerProjectRefugeeActivity"></activity>
+        <activity android:name=".NewsProjectActivity"></activity>
     </application>
 
 </manifest>
