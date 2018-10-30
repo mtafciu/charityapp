@@ -118,9 +118,7 @@
                         android:inputType="textCapSentences|textMultiLine"
                         android:background="@drawable/ll_card_border"
                         />
-<!--
-TODO: layout implementation has not finished yet!
--->
+
                 </LinearLayout>
 
 
