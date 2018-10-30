@@ -80,8 +80,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:gravity="center"
-                android:text="You have successfully obtained \n 10 points for this program. \n We appreciate your generosity!"/>
+                android:text="Dear Amy,\n\nBecause of thoughful contributions from people like you today becomes different.\nYou have brough a smile on thousands of faces, and we are grateful to you for the same.\nYou got 20 points for this donation. Congratulation!\n\nYours,\nTD Team"/>
 
         </LinearLayout>
 
@@ -94,33 +93,38 @@
             android:layout_marginRight="20dp"
             android:gravity="center_horizontal">
 
-            <ImageButton
-                android:id="@+id/btn_do_thx_continue"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_do_pj_tk_share"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@null"
-                android:src="@drawable/btn_do"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Share with friends"
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"
                 />
 
-            <ImageButton
-                android:id="@+id/btn_do_thx_share"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_do_pj_tk_more"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@null"
-                android:src="@drawable/btn_share_friend"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Continue donating"
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"
                 />
-            <ImageButton
-                android:id="@+id/btn_do_thx_his"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_do_pj_tk_pro"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@null"
-                android:src="@drawable/btn_see_his"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Go to profile"
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"
                 />
         </LinearLayout>
     </LinearLayout>

@@ -27,7 +27,7 @@
         <activity android:name=".CertificateActivity"></activity>
         <activity android:name=".VolunteerThanksActivity"></activity>
         <activity android:name=".DonationThanksActivity"></activity>
-        <activity android:name=".MainPageActivity"></activity>
+        <activity android:name=".LoginActivity"></activity>
         <activity android:name=".HistoryActivity"></activity>
         <activity android:name=".VolunteerProjectJoinActivity"></activity>
         <activity android:name=".VolunteerProjectTicketActivity"></activity>

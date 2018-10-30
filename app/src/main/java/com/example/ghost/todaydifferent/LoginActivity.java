@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 
-public class MainPageActivity extends Activity {
+public class LoginActivity extends Activity {
     Button btn_log_in;
     Button btn_sign_up;
     ImageButton btn_volunteer;
@@ -18,13 +18,13 @@ public class MainPageActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.act_main);
+        setContentView(R.layout.act_login);
 
         btn_log_in = findViewById(R.id.btn_main_log_in);
 
         btn_log_in.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainPageActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -34,7 +34,7 @@ public class MainPageActivity extends Activity {
 
         btn_sign_up.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(MainPageActivity.this, SignUpActivity.class);
+                Intent intent = new Intent(LoginActivity.this, SignUpActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -47,7 +47,7 @@ public class MainPageActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(MainPageActivity.this, NewsActivity.class);
+                intent.setClass(LoginActivity.this, NewsActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -60,7 +60,7 @@ public class MainPageActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(MainPageActivity.this, VolunteerActivity.class);
+                intent.setClass(LoginActivity.this, VolunteerActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -73,7 +73,7 @@ public class MainPageActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(MainPageActivity.this, DonationActivity.class);
+                intent.setClass(LoginActivity.this, DonationActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -86,7 +86,7 @@ public class MainPageActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(MainPageActivity.this, ProfileActivity.class);
+                intent.setClass(LoginActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 finish();
             }

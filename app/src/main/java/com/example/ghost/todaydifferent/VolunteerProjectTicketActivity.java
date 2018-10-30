@@ -6,10 +6,13 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 
 public class VolunteerProjectTicketActivity extends Activity {
     ImageButton btn_vol_pj_tk_back;
     Button btn_vol_pj_tk_pro;
+    Button btn_vol_pj_tk_more;
+    ImageView vol_ticket_qrcode;
 
 
     @Override
@@ -38,6 +41,32 @@ public class VolunteerProjectTicketActivity extends Activity {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(VolunteerProjectTicketActivity.this, ProfileActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        btn_vol_pj_tk_more = findViewById(R.id.btn_vol_pj_tk_more);
+        btn_vol_pj_tk_more.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(VolunteerProjectTicketActivity.this, VolunteerActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        vol_ticket_qrcode = findViewById(R.id.vol_ticket_qrcode);
+        vol_ticket_qrcode.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(VolunteerProjectTicketActivity.this, VolunteerThanksActivity.class);
                 startActivity(intent);
                 //finish();
             }

@@ -5,7 +5,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
 public class NewsProjectActivity extends Activity {
     Button btn_news_pro_login;
@@ -22,7 +21,7 @@ public class NewsProjectActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(NewsProjectActivity.this, MainPageActivity.class);
+                intent.setClass(NewsProjectActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

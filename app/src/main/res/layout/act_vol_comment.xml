@@ -82,7 +82,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="Rate:"
-                        android:textSize="13sp"
+                        android:textSize="14sp"
                         android:layout_weight="1"/>
                     <ImageView
                         android:layout_width="wrap_content"
@@ -94,18 +94,28 @@
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical">
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp">
 
                     <TextView
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:text="Share my story:"
-                        android:textSize="13sp"/>
+                        android:text="Comment:"
+                        android:textSize="14sp"/>
 
                     <EditText
                         android:layout_width="match_parent"
-                        android:layout_height="50dp"
-                        android:lines="5"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:hint="Share my story..."
+                        android:paddingLeft="8dp"
+                        android:paddingRight="8dp"
+                        android:paddingTop="8dp"
+                        android:paddingBottom="8dp"
+                        android:gravity="top"
+                        android:lines="8"
+                        android:textSize="13sp"
+                        android:inputType="textCapSentences|textMultiLine"
                         android:background="@drawable/ll_card_border"
                         />
 <!--
@@ -114,6 +124,34 @@ TODO: layout implementation has not finished yet!
                 </LinearLayout>
 
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginTop="10dp">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:text="Share with"
+                        android:textSize="14sp"
+                        android:gravity="bottom"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/facebook"
+                        android:background="@null"/>
+
+                    <ImageButton
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="20dp"
+                        android:src="@drawable/linkedin"
+                        android:background="@null"/>
+
+                </LinearLayout>
             </LinearLayout>
         </LinearLayout>
 
@@ -130,6 +168,7 @@ TODO: layout implementation has not finished yet!
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
                 android:layout_marginTop="3dp"
+                android:layout_marginBottom="3dp"
                 android:gravity="right"
                 >
 
@@ -138,21 +177,17 @@ TODO: layout implementation has not finished yet!
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:text="Back"
                     android:background="@color/lightGrey"
                     />
 
                 <Button
-                    android:id="@+id/btn_vol_pj_cmt_donate"
+                    android:id="@+id/btn_vol_pj_cmt_publish"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:layout_weight="1"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
-                    android:text="Donate NOW"
+                    android:text="Publish"
                     android:background="@color/colorLight"
                     />
             </LinearLayout>

@@ -6,8 +6,6 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.ImageButton;
 import android.widget.Spinner;
 
 
@@ -64,7 +62,7 @@ public class SignUpActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(SignUpActivity.this, MainPageActivity.class);
+                intent.setClass(SignUpActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }

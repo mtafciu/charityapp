@@ -5,37 +5,51 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 public class VolunteerCommentActivity extends Activity {
+    ImageButton btn_vol_pj_cmt_nav_back;
     Button btn_vol_pj_cmt_back;
-    Button btn_vol_pj_cmt_donate;
+    Button btn_vol_pj_cmt_publish;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_vol_comment);
 
-        btn_vol_pj_cmt_back = findViewById(R.id.btn_vol_pj_cmt_back);
-        btn_vol_pj_cmt_back.setOnClickListener(new View.OnClickListener() {
+        btn_vol_pj_cmt_nav_back = findViewById(R.id.btn_vol_pj_cmt_nav_back);
+        btn_vol_pj_cmt_nav_back.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerCommentActivity.this, DonationProjectActivity.class);
+                intent.setClass(VolunteerCommentActivity.this, VolunteerThanksActivity.class);
                 startActivity(intent);
-                finish();
+                //finish();
             }
         });
 
-        btn_vol_pj_cmt_donate = findViewById(R.id.btn_vol_pj_cmt_donate);
-        btn_vol_pj_cmt_donate.setOnClickListener(new View.OnClickListener() {
+        btn_vol_pj_cmt_back = findViewById(R.id.btn_vol_pj_cmt_back);
+        btn_vol_pj_cmt_back.setOnClickListener(new View.OnClickListener() {
+
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerCommentActivity.this, DonationThanksActivity.class);
+                intent.setClass(VolunteerCommentActivity.this, VolunteerThanksActivity.class);
                 startActivity(intent);
-                finish();
+                //finish();
+            }
+        });
+
+        btn_vol_pj_cmt_publish = findViewById(R.id.btn_vol_pj_cmt_publish);
+        btn_vol_pj_cmt_publish.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+
             }
         });
     }

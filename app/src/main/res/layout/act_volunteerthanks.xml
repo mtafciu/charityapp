@@ -76,7 +76,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Dear Daniel,\n\nSmall effort makes today different.\nVolunteering is not only about giving. It’s a way of living. Thanks for having you here.\nYou’ve received 60 points. Congratulation!\n\nYours,\nTD Team"/>
+                android:text="Dear Lukas,\n\nSmall effort makes today different.\nVolunteering is not only about giving. It’s a way of living. Thanks for having you here.\nYou’ve received 60 points. Congratulation!\n\nYours,\nTD Team"/>
 
         </LinearLayout>
 
@@ -92,29 +92,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
                 android:layout_marginTop="3dp"
-                android:gravity="right"
+                android:layout_marginBottom="3dp"
+                android:layout_weight="10"
                 >
 
                 <Button
                     android:id="@+id/btn_vol_thx_back"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
+                    android:layout_weight="1"
                     android:text="Back"
                     android:background="@color/lightGrey"
                     />
 
                 <Button
                     android:id="@+id/btn_vol_thx_share"
-                    android:layout_width="100dp"
+                    android:layout_width="match_parent"
                     android:layout_height="match_parent"
+                    android:layout_weight="1"
                     android:layout_marginLeft="10dp"
-                    android:layout_marginTop="5dp"
-                    android:layout_marginBottom="5dp"
                     android:text="Share"
-                    android:background="@color/colorAccent"
+                    android:background="@color/colorLight"
                     />
             </LinearLayout>
         </LinearLayout>
