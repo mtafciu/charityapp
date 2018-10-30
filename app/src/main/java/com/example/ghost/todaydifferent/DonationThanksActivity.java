@@ -10,8 +10,8 @@ import android.widget.ImageButton;
 public class DonationThanksActivity extends Activity {
 
     ImageButton btn_do_thx_back;
-    Button btn_do_pj_tk_pro;
-    Button btn_do_pj_tk_more;
+    Button btn_do_thx_back_bottom;
+    Button btn_do_thx_share;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,32 +32,34 @@ public class DonationThanksActivity extends Activity {
             }
         });
 
-
-        btn_do_pj_tk_pro = findViewById(R.id.btn_do_pj_tk_pro);
-        btn_do_pj_tk_pro.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-                Intent intent = new Intent();
-                intent.setClass(DonationThanksActivity.this, ProfileActivity.class);
-                startActivity(intent);
-                //finish();
-            }
-        });
-
-        btn_do_pj_tk_more = findViewById(R.id.btn_do_pj_tk_more);
-        btn_do_pj_tk_more.setOnClickListener(new View.OnClickListener() {
+        btn_do_thx_back_bottom = findViewById(R.id.btn_do_thx_back_bottom);
+        btn_do_thx_back_bottom.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(DonationThanksActivity.this, DonationActivity.class);
+                intent.setClass(DonationThanksActivity.this, DonationProjectActivity.class);
                 startActivity(intent);
                 //finish();
             }
         });
+
+        btn_do_thx_share = findViewById(R.id.btn_do_thx_share);
+        btn_do_thx_share.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(DonationThanksActivity.this, DonationCommentActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+
+
     }
 
 }
