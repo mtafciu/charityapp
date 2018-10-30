@@ -9,6 +9,7 @@ import android.widget.ImageButton;
 
 public class VolunteerProjectTicketActivity extends Activity {
     ImageButton btn_vol_pj_tk_back;
+    Button btn_vol_pj_tk_pro;
 
 
     @Override
@@ -24,6 +25,19 @@ public class VolunteerProjectTicketActivity extends Activity {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(VolunteerProjectTicketActivity.this, VolunteerProjectJoinActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        btn_vol_pj_tk_pro = findViewById(R.id.btn_vol_pj_tk_pro);
+        btn_vol_pj_tk_pro.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(VolunteerProjectTicketActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 //finish();
             }

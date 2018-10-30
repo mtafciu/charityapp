@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_gravity="left"
-            android:layout_marginLeft="20dp"
+            android:paddingLeft="20dp"
             android:src="@drawable/back"
             android:background="@color/colorLighter"/>
 
@@ -131,6 +131,7 @@
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
                     android:text="Cancel"
+                    android:textSize="12sp"
                     android:background="@color/white"
                     />
 
@@ -142,7 +143,8 @@
                     android:layout_marginLeft="10dp"
                     android:layout_marginTop="5dp"
                     android:layout_marginBottom="5dp"
-                    android:text="JOIN"
+                    android:text="Yes, I want to help"
+                    android:textSize="12sp"
                     android:background="@color/colorLight"
                     android:textColor="@color/colorPrimaryDark"
                     />
