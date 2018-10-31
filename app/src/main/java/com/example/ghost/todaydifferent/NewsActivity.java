@@ -14,7 +14,7 @@ public class NewsActivity extends Activity {
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
-    ImageButton btn_news;
+    LinearLayout ll_news_login_block;
 
     LinearLayout ll_news_project_1;
 
@@ -23,10 +23,17 @@ public class NewsActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_news);
 
+        final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
+        ll_news_login_block = findViewById(R.id.ll_news_login_block);
+        if (gv.getLogin() == true) {
+            ll_news_login_block.setVisibility(View.GONE);
+        }
+
         btn_log_in = findViewById(R.id.btn_news_log_in);
         btn_log_in.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                Intent intent = new Intent(NewsActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(NewsActivity.this, LoginActivity.class);
                 startActivity(intent);
                 finish();
             }
@@ -59,9 +66,9 @@ public class NewsActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
-                Intent intent = new Intent();
-                intent.setClass(NewsActivity.this, VolunteerActivity.class);
+
+                Intent intent = new Intent(NewsActivity.this,
+                        ((gv.getLogin() == false) ? LoginActivity.class : VolunteerActivity.class));
                 startActivity(intent);
                 finish();
             }
@@ -73,8 +80,8 @@ public class NewsActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent intent = new Intent();
-                intent.setClass(NewsActivity.this, DonationActivity.class);
+                Intent intent = new Intent(NewsActivity.this,
+                        ((gv.getLogin() == false) ? LoginActivity.class : DonationActivity.class));
                 startActivity(intent);
                 finish();
             }
@@ -86,8 +93,8 @@ public class NewsActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
-                Intent intent = new Intent();
-                intent.setClass(NewsActivity.this, ProfileActivity.class);
+                Intent intent = new Intent(NewsActivity.this,
+                        ((gv.getLogin() == false) ? LoginActivity.class : ProfileActivity.class));
                 startActivity(intent);
                 finish();
             }

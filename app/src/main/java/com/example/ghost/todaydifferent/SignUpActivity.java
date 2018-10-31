@@ -23,6 +23,8 @@ public class SignUpActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_signup);
 
+        final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
         spinner_sign_city = findViewById(R.id.spinner_sign_city);
         ArrayAdapter<CharSequence> cityList = ArrayAdapter.createFromResource(SignUpActivity.this,
                 R.array.sign_city_list,
@@ -47,7 +49,7 @@ public class SignUpActivity extends Activity {
 
             @Override
             public void onClick(View v) {
-                // TODO Auto-generated method stub
+                gv.setLogin(true);
                 Intent intent = new Intent();
                 intent.setClass(SignUpActivity.this, ProfileActivity.class);
                 startActivity(intent);

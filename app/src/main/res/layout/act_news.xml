@@ -36,7 +36,7 @@
         <LinearLayout
             android:layout_weight="1"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             android:orientation="vertical"
             android:gravity="center_horizontal">
 
@@ -80,6 +80,7 @@
                 android:orientation="vertical">
 
                 <LinearLayout
+                    android:id="@+id/ll_news_login_block"
                     android:layout_weight="3"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

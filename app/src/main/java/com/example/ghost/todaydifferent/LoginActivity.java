@@ -20,10 +20,15 @@ public class LoginActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_login);
 
+        final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
         btn_log_in = findViewById(R.id.btn_main_log_in);
 
         btn_log_in.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
+
+
+                gv.setLogin(true);
                 Intent intent = new Intent(LoginActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 finish();
