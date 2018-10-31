@@ -168,7 +168,7 @@
                                 android:layout_height="200dp"
                                 android:layout_marginTop="13dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/tsunami" />
+                                android:src="@drawable/img_kids_sport" />
 
                             <TextView
                                 android:layout_width="match_parent"
@@ -177,7 +177,7 @@
                                 android:layout_marginLeft="10dp"
                                 android:layout_marginTop="10dp"
                                 android:clickable="true"
-                                android:text="Tsunami in Indonesia"
+                                android:text="Sports Day for Children"
                                 android:textColor="@color/colorLight"
                                 android:textSize="15sp"
                                 android:textStyle="bold"/>
@@ -189,7 +189,7 @@
                                 android:layout_marginRight="10dp"
                                 android:layout_marginTop="5dp"
                                 android:layout_weight="1"
-                                android:text="The confirmed death toll from the earthquake and tsunami that struck the Indonesian island of Sulawesi has risen to 832, and the vice-president, Jusuf Kalla, has warned it could reach into the thousands..."
+                                android:text="Help the children of Neckerstadt to have a joyful day trying out different sports they haven’t tried before. As a volunteer, you will help out at various stations explaining to the kids how they should..."
                                 android:textSize="13sp" />
 
                             <LinearLayout
@@ -207,7 +207,7 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
-                                    android:text="Environment, Children"
+                                    android:text="Health, Children"
                                     android:textSize="10sp"
                                     android:textColor="@color/darkerGrey"/>
 
@@ -220,12 +220,10 @@
                                 <TextView
                                     android:layout_width="wrap_content"
                                     android:layout_height="match_parent"
-                                    android:text="12. Nov. 2018"
+                                    android:text="12. Oct, 2018"
                                     android:textSize="10sp"
                                     android:textColor="@color/darkerGrey"/>
-
                             </LinearLayout>
-
                         </LinearLayout>
                     </LinearLayout>
                 </ScrollView>

@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            android:src="@drawable/img_refuge"/>
+            android:src="@drawable/img_kids_sport"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:clickable="true"
-            android:text="Tsunami in Indonesia"
+            android:text="Children need to be more active"
             android:textColor="@color/colorLight"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -64,29 +64,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/tags"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:clickable="true"
-                    android:text="Environment"
-                    android:textSize="12sp"
-                    android:textStyle="italic"
-                    android:textColor="@color/colorLight"/>
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="30dp"
-                android:orientation="horizontal">
-
                 <ImageView
                     android:layout_width="20dp"
                     android:layout_height="15dp"
@@ -96,11 +73,30 @@
                     android:layout_height="wrap_content"
                     android:layout_marginLeft="5dp"
                     android:clickable="true"
-                    android:text="13. Oct, 2018"
+                    android:text="12. Oct, 2018"
                     android:textSize="12sp"
                     android:textStyle="italic"
                     android:textColor="@color/colorLight"/>
+            </LinearLayout>
 
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="30dp"
+                android:orientation="horizontal">
+                <ImageView
+                    android:layout_width="20dp"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/tags"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:text="Health, Children"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/colorLight"/>
             </LinearLayout>
         </LinearLayout>
 
@@ -116,7 +112,8 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Many people are still fleeing war, hunger, persecution from their home countries. Many of them have been in Mannheim for some time now, are attending school here or are training."
+                    android:text="To live a healthy life, you have to start implementing sports early into the daily life routine. According to professor Shulman’s latest paper, German children are not active enough, making them volunerable for lifestyle deseases such as diabetes, fetma and heart problems.
+"
                     android:textSize="13sp"/>
                 <TextView
                     android:layout_width="match_parent"
