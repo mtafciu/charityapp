@@ -76,7 +76,7 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
                 android:textSize="15sp"
-                android:text="150 pts"
+                android:text="100,000 pts"
                 android:gravity="center"/>
             <Button
                 android:id="@+id/btn_pro_certificate"

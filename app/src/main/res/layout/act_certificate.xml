@@ -96,24 +96,38 @@
             android:layout_marginRight="20dp"
             android:gravity="center_horizontal">
 
-            <ImageButton
-                android:id="@+id/btn_cert_his"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_cert_share"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@null"
-                android:src="@drawable/btn_email_cert"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Share with friends"
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"
                 />
 
-            <ImageButton
-                android:id="@+id/btn_cert_share"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/btn_cert_pro"
+                android:layout_width="match_parent"
                 android:layout_height="40dp"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:background="@null"
-                android:src="@drawable/btn_share_friend"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="Go to profile"
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"
+                />
+            <Button
+                android:id="@+id/btn_cert_rank"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:text="See ranking"
+                android:background="@color/colorLight"
+                android:textColor="@color/colorPrimaryDark"
                 />
 
         </LinearLayout>
