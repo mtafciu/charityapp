@@ -109,7 +109,7 @@
                         android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
-                        android:text="100,000"
+                        android:text="100,000 pts"
                         android:textSize="15sp"/>
 
                 </LinearLayout>
@@ -142,7 +142,7 @@
                         android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
-                        android:text="76,000"
+                        android:text="76,000 pts"
                         android:textSize="15sp"/>
 
                 </LinearLayout>
@@ -175,7 +175,7 @@
                         android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
-                        android:text="73,000"
+                        android:text="73,000 pts"
                         android:textSize="15sp"/>
 
                 </LinearLayout>
@@ -210,7 +210,7 @@
                         android:layout_width="130dp"
                         android:layout_height="match_parent"
                         android:gravity="center_vertical"
-                        android:text="69,000"
+                        android:text="69,000 pts"
                         android:textSize="15sp"/>
 
                 </LinearLayout>
