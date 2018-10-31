@@ -235,6 +235,231 @@
                                 android:layout_height="180dp"
                                 android:scaleType="fitXY"
                                 android:layout_marginTop="13dp"
+                                android:src="@drawable/img_refugee_old" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:clickable="true"
+                                    android:text="Humanitarian aid to Syria"
+                                    android:textColor="@color/colorLight"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="SyrienHilfe e.V."
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="In order to help the victims of the Syrian conflict we had decided to establish the charitable association SyrienHilfe e.V. Please help us and donate 4 NGO Humanitarian Aid to Syria More informations?..."
+                                    android:textSize="13sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="Animal"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="30dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/calendar"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="13. Oct, 2018"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/ll_card_border">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="fitXY"
+                                android:layout_marginTop="13dp"
+                                android:src="@drawable/img_refugee_last" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_gravity="center_vertical"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:layout_marginTop="10dp"
+                                android:orientation="vertical">
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:clickable="true"
+                                    android:text="Emergency Aid for Syrian Refugees"
+                                    android:textColor="@color/colorLight"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="5dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="U. N. refugee agency"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_weight="1"
+                                    android:layout_marginLeft="5dp"
+                                    android:text="UNHCR, the U. N. refugee agency, has registered more than 4.5 million refugees from Syria in the neighbouring countries Jordan, Lebanon, Iraq, Turkey, and Egypt. In addition, there are more than seven million people displaced within the border.
+..."
+                                    android:textSize="13sp" />
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="Children, Education"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="30dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/calendar"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="02. Nov, 2018"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:layout_marginTop="20dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/ll_card_border">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="180dp"
+                                android:scaleType="fitXY"
+                                android:layout_marginTop="13dp"
                                 android:src="@drawable/teachgerman" />
                             <LinearLayout
                                 android:layout_width="match_parent"
@@ -333,232 +558,6 @@
                                 </LinearLayout>
                             </LinearLayout>
                         </LinearLayout>
-
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:layout_marginTop="20dp"
-                            android:orientation="vertical"
-                            android:background="@drawable/ll_card_border">
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="180dp"
-                                android:scaleType="fitXY"
-                                android:layout_marginTop="13dp"
-                                android:src="@drawable/vol_hourse" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginRight="10dp"
-                                android:layout_marginTop="10dp"
-                                android:orientation="vertical">
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:clickable="true"
-                                    android:text="Volunteer with horses"
-                                    android:textColor="@color/colorLight"
-                                    android:textSize="15sp"
-                                    android:textStyle="bold" />
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:orientation="horizontal">
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="Goodman e.v"
-                                        android:textSize="12sp"
-                                        android:textColor="@color/colorLight"/>
-                                    <ImageView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp"
-                                        android:src="@drawable/stars"/>
-                                </LinearLayout>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="The bond between humans and horses is already one-of-a-kind, but when combined with volunteer work it is sure to be an experience that won’t soon be forgotten. When working with mistreated horses..."
-                                    android:textSize="13sp" />
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="20dp"
-                                    android:layout_marginTop="3dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:orientation="horizontal">
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="match_parent"
-                                        android:orientation="horizontal">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="match_parent"
-                                            android:src="@drawable/tags"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginLeft="5dp"
-                                            android:clickable="true"
-                                            android:text="Animal"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-
-                                    </LinearLayout>
-
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="match_parent"
-                                        android:layout_marginLeft="30dp"
-                                        android:orientation="horizontal">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="15dp"
-                                            android:src="@drawable/calendar"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginLeft="5dp"
-                                            android:clickable="true"
-                                            android:text="13. Oct, 2018"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-
-                                    </LinearLayout>
-                                </LinearLayout>
-                            </LinearLayout>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:layout_marginTop="20dp"
-                            android:orientation="vertical"
-                            android:background="@drawable/ll_card_border">
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="180dp"
-                                android:scaleType="fitXY"
-                                android:layout_marginTop="13dp"
-                                android:src="@drawable/kidscamp" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="wrap_content"
-                                android:layout_gravity="center_vertical"
-                                android:layout_marginLeft="10dp"
-                                android:layout_marginRight="10dp"
-                                android:layout_marginTop="10dp"
-                                android:orientation="vertical">
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:clickable="true"
-                                    android:text="Volunteer in a youth camp"
-                                    android:textColor="@color/colorLight"
-                                    android:textSize="15sp"
-                                    android:textStyle="bold" />
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="5dp"
-                                    android:orientation="horizontal">
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="YMCA"
-                                        android:textSize="12sp"
-                                        android:textColor="@color/colorLight"/>
-                                    <ImageView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp"
-                                        android:src="@drawable/stars"/>
-                                </LinearLayout>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_weight="1"
-                                    android:layout_marginLeft="5dp"
-                                    android:text="We are looking for volunteers for a youth camp. It starts on November and it´s in the Black forest. We offer a fun and relaxing environment for the children. Please bring enthusiasm and energy..."
-                                    android:textSize="13sp" />
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="20dp"
-                                    android:layout_marginTop="3dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:orientation="horizontal">
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="match_parent"
-                                        android:orientation="horizontal">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="match_parent"
-                                            android:src="@drawable/tags"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginLeft="5dp"
-                                            android:clickable="true"
-                                            android:text="Children, Education"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-
-                                    </LinearLayout>
-
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="match_parent"
-                                        android:layout_marginLeft="30dp"
-                                        android:orientation="horizontal">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="15dp"
-                                            android:src="@drawable/calendar"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginLeft="5dp"
-                                            android:clickable="true"
-                                            android:text="02. Nov, 2018"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-
-                                    </LinearLayout>
-                                </LinearLayout>
-                            </LinearLayout>
-                        </LinearLayout>
-
                     </LinearLayout>
                 </ScrollView>
             </LinearLayout>

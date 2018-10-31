@@ -29,7 +29,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"
-            android:text="Donate Now"
+            android:text="Comment"
             android:gravity="center"/>
 
 
@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:src="@drawable/farmers_pj"
+                android:src="@drawable/img_refugees_board"
                 android:scaleX="0.9"/>
 
             <LinearLayout

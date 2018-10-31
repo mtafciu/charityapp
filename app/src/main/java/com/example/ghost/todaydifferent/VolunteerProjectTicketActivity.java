@@ -27,7 +27,7 @@ public class VolunteerProjectTicketActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerProjectTicketActivity.this, VolunteerProjectJoinActivity.class);
+                intent.setClass(VolunteerProjectTicketActivity.this, VolunteerProjectRefugeeActivity.class);
                 startActivity(intent);
                 //finish();
             }
