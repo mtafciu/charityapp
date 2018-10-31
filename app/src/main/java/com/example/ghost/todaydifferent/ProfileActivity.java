@@ -7,6 +7,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ImageView;
+import android.widget.TextView;
 
 public class ProfileActivity extends Activity {
     Button btn_pro_shop;
@@ -16,11 +17,22 @@ public class ProfileActivity extends Activity {
     ImageButton btn_donation;
     ImageButton btn_profile;
     ImageButton btn_news;
+    ImageView pro_user_img;
+    TextView pro_user_name;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_profile);
+
+        final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
+        pro_user_img = findViewById(R.id.pro_user_img);
+        pro_user_img.setImageResource(((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? R.drawable.lukas_img : R.drawable.amy_img));
+
+        pro_user_name = findViewById(R.id.pro_user_name);
+        pro_user_name.setText((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? R.string.user_lukas : R.string.user_amy);
 
         btn_pro_shop = findViewById(R.id.btn_pro_shop);
         btn_pro_shop.setOnClickListener(new View.OnClickListener() {

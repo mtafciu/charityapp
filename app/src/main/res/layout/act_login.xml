@@ -14,13 +14,12 @@
         android:gravity="center"
         android:layout_weight="12">
 
-
         <TextView
             android:id="@+id/txt_main_nav"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:textSize="18sp"
-            android:text="Profile"
+            android:text="Log In"
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"
             android:gravity="center"/>
@@ -58,6 +57,16 @@
                 android:textColor="@color/colorAccent"
                 android:gravity="center"/>
 
+            <TextView
+                android:id="@+id/tv_login_check_account"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Invalid email or password. Please check it again!"
+                android:textSize="10sp"
+                android:textColor="@color/colorPrimaryDark"
+                android:gravity="center"
+                android:visibility="gone"/>
+
             <EditText
                 android:id="@+id/et_main_email"
                 android:layout_width="match_parent"
@@ -70,7 +79,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="5dp"
-                android:hint="Password"/>
+                android:hint="Password"
+                android:inputType="textPassword"/>
 
             <Button
                 android:id="@+id/btn_main_log_in"
