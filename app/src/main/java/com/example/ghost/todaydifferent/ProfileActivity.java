@@ -19,6 +19,7 @@ public class ProfileActivity extends Activity {
     ImageButton btn_news;
     ImageView pro_user_img;
     TextView pro_user_name;
+    TextView pro_user_pts;
     ImageButton btn_pro_logout;
 
 
@@ -48,6 +49,9 @@ public class ProfileActivity extends Activity {
 
         pro_user_name = findViewById(R.id.pro_user_name);
         pro_user_name.setText((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? R.string.user_lukas : R.string.user_amy);
+
+        pro_user_pts = findViewById(R.id.pro_user_pts);
+        pro_user_pts.setText((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? "100,000 pts" : "76,000 pts");
 
         btn_pro_shop = findViewById(R.id.btn_pro_shop);
         btn_pro_shop.setOnClickListener(new View.OnClickListener() {

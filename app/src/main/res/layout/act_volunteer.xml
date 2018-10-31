@@ -190,7 +190,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Children, Education"
+                                            android:text="Refugee"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
@@ -302,7 +302,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Animal"
+                                            android:text="Refugee"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
@@ -415,7 +415,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Children, Education"
+                                            android:text="Refugee"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
@@ -527,7 +527,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Children, Education"
+                                            android:text="Refugee, Education"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>

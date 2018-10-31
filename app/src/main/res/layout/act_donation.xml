@@ -103,7 +103,7 @@
                                 android:layout_height="250dp"
                                 android:layout_marginTop="13dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/img_farmer" />
+                                android:src="@drawable/img_education_bag" />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -119,7 +119,7 @@
                                     android:layout_marginLeft="7dp"
                                     android:layout_weight="1"
                                     android:clickable="true"
-                                    android:text="Help Farmers"
+                                    android:text="A filled schoolbag for every child"
                                     android:textColor="@color/colorLight"
                                     android:textSize="15sp"
                                     android:textStyle="bold"/>
@@ -132,7 +132,7 @@
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="Farmer in Deutschland"
+                                        android:text="Deutsches Kinderhilfswerk"
                                         android:textSize="12sp"
                                         android:textColor="@color/colorLight"/>
                                     <ImageView
@@ -148,7 +148,138 @@
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="1"
-                                    android:text="With your help, we can change the way we grow food, starting with seed. We can build an organic food supply that is healthy, resilient, and adaptable..."
+                                    android:text="The German organisation Deutsches Kinderhilfswerk is looking for donors that would like to make it possible for children from low-income families to start into the future from a close to equal basis..."
+                                    android:textSize="13sp" />
+
+                                <ProgressBar
+                                    style="@android:style/Widget.ProgressBar.Horizontal"
+                                    android:layout_weight="2"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="10dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginRight="5dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_gravity="center_vertical"
+                                    android:background="@color/colorPrimaryDark"
+                                    android:progressBackgroundTint="@color/colorPrimary"
+                                    android:progressTint="@color/colorAccent"
+                                    android:max="100"
+                                    android:progress="68"/>
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="20dp"
+                                    android:layout_marginTop="3dp"
+                                    android:layout_marginLeft="5dp"
+                                    android:layout_marginBottom="10dp"
+                                    android:orientation="horizontal">
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="match_parent"
+                                            android:src="@drawable/tags"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="Education"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+
+                                    <LinearLayout
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="match_parent"
+                                        android:layout_marginLeft="150dp"
+                                        android:orientation="horizontal">
+
+                                        <ImageView
+                                            android:layout_width="20dp"
+                                            android:layout_height="15dp"
+                                            android:src="@drawable/hourglass"/>
+                                        <TextView
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginLeft="5dp"
+                                            android:clickable="true"
+                                            android:text="68%"
+                                            android:textSize="12sp"
+                                            android:textStyle="italic"
+                                            android:textColor="@color/colorLight"/>
+
+                                    </LinearLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_weight="1"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:orientation="vertical"
+                            android:background="@drawable/ll_card_border">
+                            <ImageView
+                                android:layout_width="match_parent"
+                                android:layout_height="250dp"
+                                android:layout_marginTop="13dp"
+                                android:scaleType="fitXY"
+                                android:src="@drawable/img_education_2" />
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:layout_gravity="center_vertical"
+                                android:paddingRight="5dp"
+                                android:paddingLeft="5dp"
+                                android:orientation="vertical"
+                                >
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginTop="10dp"
+                                    android:layout_marginLeft="7dp"
+                                    android:layout_weight="1"
+                                    android:clickable="true"
+                                    android:text="livingroom - help youth grow"
+                                    android:textColor="@color/colorLight"
+                                    android:textSize="15sp"
+                                    android:textStyle="bold"/>
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="7dp"
+                                    android:orientation="horizontal">
+
+                                    <TextView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:text="Livingroom eV"
+                                        android:textSize="12sp"
+                                        android:textColor="@color/colorLight"/>
+                                    <ImageView
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginLeft="10dp"
+                                        android:src="@drawable/stars"/>
+                                </LinearLayout>
+                                <TextView
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginLeft="7dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_marginTop="5dp"
+                                    android:layout_weight="1"
+                                    android:text="livingroom eV wants to alleviate distress through targeted prevention work, mentoring and practical help. The basis for our work is the holistic development and promotion of children, teenagers and adolescents (8 - 21 years) from the Duisburg district of Meiderich..."
                                     android:textSize="13sp" />
 
                                 <ProgressBar
@@ -187,7 +318,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Environment"
+                                            android:text="Education"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
@@ -318,7 +449,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Environment"
+                                            android:text="Education"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>
@@ -365,7 +496,7 @@
                                 android:layout_height="250dp"
                                 android:layout_marginTop="13dp"
                                 android:scaleType="fitXY"
-                                android:src="@drawable/orphanstudents" />
+                                android:src="@drawable/img_edu_2" />
                             <LinearLayout
                                 android:layout_width="match_parent"
                                 android:layout_height="match_parent"
@@ -381,7 +512,7 @@
                                     android:layout_marginLeft="7dp"
                                     android:layout_weight="1"
                                     android:clickable="true"
-                                    android:text="Donation in Mannheim -  Education projects "
+                                    android:text="Give children their right to an education!"
                                     android:textColor="@color/colorLight"
                                     android:textSize="15sp"
                                     android:textStyle="bold"/>
@@ -394,7 +525,7 @@
                                     <TextView
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:text="TFT."
+                                        android:text="Kanduyi Children"
                                         android:textSize="12sp"
                                         android:textColor="@color/colorLight"/>
                                     <ImageView
@@ -410,7 +541,7 @@
                                     android:layout_marginRight="10dp"
                                     android:layout_marginTop="5dp"
                                     android:layout_weight="1"
-                                    android:text="Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your..."
+                                    android:text="Kanduyi Children e.V. supports socially underprivileged students from Kenya to acquire free secondary school education. All our donations are channeled transparently and corruption free only and only towards the education of these children..."
                                     android:textSize="13sp" />
 
                                 <ProgressBar
@@ -449,138 +580,7 @@
                                             android:layout_height="wrap_content"
                                             android:layout_marginLeft="5dp"
                                             android:clickable="true"
-                                            android:text="Environment"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-
-                                    </LinearLayout>
-
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="match_parent"
-                                        android:layout_marginLeft="150dp"
-                                        android:orientation="horizontal">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="15dp"
-                                            android:src="@drawable/hourglass"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginLeft="5dp"
-                                            android:clickable="true"
-                                            android:text="68%"
-                                            android:textSize="12sp"
-                                            android:textStyle="italic"
-                                            android:textColor="@color/colorLight"/>
-
-                                    </LinearLayout>
-                                </LinearLayout>
-                            </LinearLayout>
-                        </LinearLayout>
-
-                        <LinearLayout
-                            android:layout_width="match_parent"
-                            android:layout_height="wrap_content"
-                            android:layout_gravity="center_vertical"
-                            android:layout_weight="1"
-                            android:layout_marginTop="20dp"
-                            android:layout_marginLeft="10dp"
-                            android:layout_marginRight="10dp"
-                            android:orientation="vertical"
-                            android:background="@drawable/ll_card_border">
-                            <ImageView
-                                android:layout_width="match_parent"
-                                android:layout_height="250dp"
-                                android:layout_marginTop="13dp"
-                                android:scaleType="fitXY"
-                                android:src="@drawable/orphanstudents" />
-                            <LinearLayout
-                                android:layout_width="match_parent"
-                                android:layout_height="match_parent"
-                                android:layout_gravity="center_vertical"
-                                android:paddingRight="5dp"
-                                android:paddingLeft="5dp"
-                                android:orientation="vertical"
-                                >
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginTop="10dp"
-                                    android:layout_marginLeft="7dp"
-                                    android:layout_weight="1"
-                                    android:clickable="true"
-                                    android:text="Donation in Mannheim -  Education projects "
-                                    android:textColor="@color/colorLight"
-                                    android:textSize="15sp"
-                                    android:textStyle="bold"/>
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="7dp"
-                                    android:orientation="horizontal">
-
-                                    <TextView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:text="TFT."
-                                        android:textSize="12sp"
-                                        android:textColor="@color/colorLight"/>
-                                    <ImageView
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginLeft="10dp"
-                                        android:src="@drawable/stars"/>
-                                </LinearLayout>
-                                <TextView
-                                    android:layout_width="match_parent"
-                                    android:layout_height="wrap_content"
-                                    android:layout_marginLeft="7dp"
-                                    android:layout_marginRight="10dp"
-                                    android:layout_marginTop="5dp"
-                                    android:layout_weight="1"
-                                    android:text="Our work here involves creating a brighter future for orphaned and vulnerable children. The volunteers should have basic knowledge in the courses that are offered in our school. We will allocate you based on your..."
-                                    android:textSize="13sp" />
-
-                                <ProgressBar
-                                    style="@android:style/Widget.ProgressBar.Horizontal"
-                                    android:layout_weight="2"
-                                    android:layout_width="match_parent"
-                                    android:layout_height="10dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginRight="5dp"
-                                    android:layout_marginTop="5dp"
-                                    android:layout_gravity="center_vertical"
-                                    android:background="@color/colorPrimaryDark"
-                                    android:progressBackgroundTint="@color/colorPrimary"
-                                    android:progressTint="@color/colorAccent"
-                                    android:max="100"
-                                    android:progress="30"/>
-
-                                <LinearLayout
-                                    android:layout_width="match_parent"
-                                    android:layout_height="20dp"
-                                    android:layout_marginTop="3dp"
-                                    android:layout_marginLeft="5dp"
-                                    android:layout_marginBottom="10dp"
-                                    android:orientation="horizontal">
-                                    <LinearLayout
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="match_parent"
-                                        android:orientation="horizontal">
-
-                                        <ImageView
-                                            android:layout_width="20dp"
-                                            android:layout_height="match_parent"
-                                            android:src="@drawable/tags"/>
-                                        <TextView
-                                            android:layout_width="wrap_content"
-                                            android:layout_height="wrap_content"
-                                            android:layout_marginLeft="5dp"
-                                            android:clickable="true"
-                                            android:text="Environment"
+                                            android:text="Education"
                                             android:textSize="12sp"
                                             android:textStyle="italic"
                                             android:textColor="@color/colorLight"/>

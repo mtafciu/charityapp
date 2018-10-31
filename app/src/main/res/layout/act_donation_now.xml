@@ -62,8 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="3"
-                android:src="@drawable/farmers_pj"
-                android:scaleX="0.9" />
+                android:src="@drawable/img_edu_do" />
 
             <LinearLayout
                 android:layout_width="match_parent"

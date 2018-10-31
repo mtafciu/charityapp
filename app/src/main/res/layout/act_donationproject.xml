@@ -15,7 +15,7 @@
             android:layout_height="match_parent"
             android:layout_weight="1"
             android:scaleType="fitXY"
-            android:src="@drawable/img_farmer"/>
+            android:src="@drawable/img_education_bag"/>
     </LinearLayout>
 
     <LinearLayout
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginLeft="5dp"
             android:clickable="true"
-            android:text="Help Farmers"
+            android:text="A filled schoolbag for every child"
             android:textColor="@color/colorLight"
             android:textSize="18sp"
             android:textStyle="bold" />
@@ -45,7 +45,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Farmer in Deutschland"
+                android:text="Deutsches Kinderhilfswerk"
                 android:textSize="12sp"
                 android:textColor="@color/colorLight"/>
             <ImageView
@@ -153,11 +153,12 @@
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Seed is the foundation of our food and agricultural systems. As the global seed industry consolidates, the biodiversity of our food chain and farmers' access to adaptable seed diminishes. "
+                    android:text="The results of the survey conducted by the OECD Programme for International Student Assessment (PISA) show that the educational performance of children is highly dependent from the social background and the income of their parents. Therefore, children with parents living on “Hartz IV” welfare are particularly deprived. The initiative “filled schoolbags for all children” aims at children in need. Teaching aids are a prerequisite for participation in the educational system. Not only will children with poor schooling be disadvantaged compared to their peers – as a consequence their job opportunities will also be limited in the future."
                     android:textSize="13sp"/>
                 <TextView
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
                     android:text="Orgnaisation Introduction"
                     android:textStyle="bold"
                     android:textSize="13sp"/>
@@ -165,20 +166,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:textSize="13sp"
-                    android:text="Farmer in Deutschland nonprofit that advances ethical seed solutions to meet food and farming needs in a changing world."/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="13sp"
-                    android:text="What we need from you"
-                    android:textStyle="bold"/>
-                <TextView
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="92% of all money given to Farmer in Deutschland goes directly to delivering conservation results."
-                    android:textSize="13sp"/>
-
-
+                    android:text="The Deutsches Kinderhilfswerk (Children’s Charity of Germany) was founded by entrepeneurs and merchants in Munich on 17 February 1972. The aim was to improve the playground situation in Germany. In order to collect funds, a donation box was introduced, at the time a unique method of asking people to support a good cause. In the 80s, a lot of grass roots work was completed. The notion of children’s play environments became increasingly important. At the end of the day, children should not only be provided with enclosed playgrounds, but also child-friendly living spaces should be created."/>
             </LinearLayout>
         </ScrollView>
 

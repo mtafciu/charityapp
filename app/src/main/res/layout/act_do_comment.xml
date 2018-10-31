@@ -62,7 +62,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_weight="2"
-                android:src="@drawable/farmers_pj"
+                android:src="@drawable/img_edu_cmt"
                 android:scaleX="0.9"/>
 
             <LinearLayout
