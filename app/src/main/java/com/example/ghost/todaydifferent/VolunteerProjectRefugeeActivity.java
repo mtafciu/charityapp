@@ -9,6 +9,7 @@ import android.widget.Button;
 public class VolunteerProjectRefugeeActivity extends Activity {
     Button btn_vol_pro_ref_back;
     Button btn_vol_pro_ref_sign;
+    Button btn_vol_view_cmt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,6 +23,18 @@ public class VolunteerProjectRefugeeActivity extends Activity {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(VolunteerProjectRefugeeActivity.this, VolunteerActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        btn_vol_view_cmt = findViewById(R.id.btn_vol_view_cmt);
+        btn_vol_view_cmt.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(VolunteerProjectRefugeeActivity.this, VolunteerViewCommentActivity.class);
                 startActivity(intent);
                 finish();
             }
