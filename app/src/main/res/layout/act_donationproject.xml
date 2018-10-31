@@ -26,114 +26,6 @@
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:clickable="true"
-            android:text="A filled schoolbag for every child"
-            android:textColor="@color/colorLight"
-            android:textSize="18sp"
-            android:textStyle="bold" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="5dp"
-            android:orientation="horizontal">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Deutsches Kinderhilfswerk"
-                android:textSize="12sp"
-                android:textColor="@color/colorLight"/>
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:src="@drawable/stars"/>
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:gravity="center_vertical">
-            <ProgressBar
-                style="@android:style/Widget.ProgressBar.Horizontal"
-                android:layout_weight="1"
-                android:layout_width="match_parent"
-                android:layout_height="10dp"
-                android:layout_marginLeft="1dp"
-                android:layout_marginTop="5dp"
-                android:layout_gravity="center_vertical"
-                android:background="@color/colorPrimaryDark"
-                android:progressBackgroundTint="@color/colorPrimary"
-                android:progressTint="@color/colorAccent"
-                android:max="100"
-                android:progress="68"/>
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="8"
-                android:layout_marginTop="4dp"
-                android:layout_marginLeft="5dp"
-                android:text="68 %"
-                android:textSize="13sp"/>
-
-        </LinearLayout>
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="20dp"
-            android:layout_marginTop="5dp"
-            android:layout_marginLeft="5dp"
-            android:layout_marginBottom="10dp"
-            android:orientation="horizontal">
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="15dp"
-                    android:src="@drawable/calendar"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:clickable="true"
-                    android:text="12. Oct, 2018 @ 10:00"
-                    android:textSize="12sp"
-                    android:textStyle="italic"
-                    android:textColor="@color/colorLight"/>
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="30dp"
-                android:orientation="horizontal">
-
-                <ImageView
-                    android:layout_width="20dp"
-                    android:layout_height="match_parent"
-                    android:src="@drawable/icon_heart"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_marginLeft="5dp"
-                    android:clickable="true"
-                    android:text="$68.313.333/$100.000.000"
-                    android:textSize="12sp"
-                    android:textStyle="italic"
-                    android:textColor="@color/colorLight"/>
-
-            </LinearLayout>
-        </LinearLayout>
-
         <ScrollView
             android:layout_weight="8"
             android:layout_height="fill_parent"
@@ -143,30 +35,157 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:clickable="true"
+                    android:text="A filled schoolbag for every child"
+                    android:textColor="@color/colorLight"
+                    android:textSize="18sp"
+                    android:textStyle="bold" />
 
-                <TextView
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="Project Introduction"
-                    android:textStyle="bold"
-                    android:textSize="13sp"/>
-                <TextView
+                    android:layout_marginLeft="5dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Deutsches Kinderhilfswerk"
+                        android:textSize="12sp"
+                        android:textColor="@color/colorLight"/>
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/stars"/>
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:text="The results of the survey conducted by the OECD Programme for International Student Assessment (PISA) show that the educational performance of children is highly dependent from the social background and the income of their parents. Therefore, children with parents living on “Hartz IV” welfare are particularly deprived. The initiative “filled schoolbags for all children” aims at children in need. Teaching aids are a prerequisite for participation in the educational system. Not only will children with poor schooling be disadvantaged compared to their peers – as a consequence their job opportunities will also be limited in the future."
-                    android:textSize="13sp"/>
-                <TextView
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical">
+                    <ProgressBar
+                        style="@android:style/Widget.ProgressBar.Horizontal"
+                        android:layout_weight="1"
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:layout_marginLeft="1dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@color/colorPrimaryDark"
+                        android:progressBackgroundTint="@color/colorPrimary"
+                        android:progressTint="@color/colorAccent"
+                        android:max="100"
+                        android:progress="68"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="8"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginLeft="5dp"
+                        android:text="68 %"
+                        android:textSize="13sp"/>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginBottom="10dp"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="15dp"
+                            android:src="@drawable/calendar"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:clickable="true"
+                            android:text="12. Oct, 2018 @ 10:00"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/colorLight"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="30dp"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="20dp"
+                            android:layout_height="match_parent"
+                            android:src="@drawable/icon_heart"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="5dp"
+                            android:clickable="true"
+                            android:text="$68.313.333/$100.000.000"
+                            android:textSize="12sp"
+                            android:textStyle="italic"
+                            android:textColor="@color/colorLight"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginTop="10dp"
-                    android:text="Orgnaisation Introduction"
-                    android:textStyle="bold"
-                    android:textSize="13sp"/>
-                <TextView
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Project Introduction"
+                        android:textStyle="bold"
+                        android:textSize="13sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="The results of the survey conducted by the OECD Programme for International Student Assessment (PISA) show that the educational performance of children is highly dependent from the social background and the income of their parents. Therefore, children with parents living on “Hartz IV” welfare are particularly deprived. The initiative “filled schoolbags for all children” aims at children in need. Teaching aids are a prerequisite for participation in the educational system. Not only will children with poor schooling be disadvantaged compared to their peers – as a consequence their job opportunities will also be limited in the future."
+                        android:textSize="13sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="10dp"
+                        android:text="Orgnaisation Introduction"
+                        android:textStyle="bold"
+                        android:textSize="13sp"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="13sp"
+                        android:text="The Deutsches Kinderhilfswerk (Children’s Charity of Germany) was founded by entrepeneurs and merchants in Munich on 17 February 1972. The aim was to improve the playground situation in Germany. In order to collect funds, a donation box was introduced, at the time a unique method of asking people to support a good cause. In the 80s, a lot of grass roots work was completed. The notion of children’s play environments became increasingly important. At the end of the day, children should not only be provided with enclosed playgrounds, but also child-friendly living spaces should be created."/>
+                </LinearLayout>
+
+                <Button
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:textSize="13sp"
-                    android:text="The Deutsches Kinderhilfswerk (Children’s Charity of Germany) was founded by entrepeneurs and merchants in Munich on 17 February 1972. The aim was to improve the playground situation in Germany. In order to collect funds, a donation box was introduced, at the time a unique method of asking people to support a good cause. In the 80s, a lot of grass roots work was completed. The notion of children’s play environments became increasingly important. At the end of the day, children should not only be provided with enclosed playgrounds, but also child-friendly living spaces should be created."/>
+                    android:layout_height="30dp"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginLeft="30dp"
+                    android:text="View Comment"
+                    android:background="@color/lighterGrey"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+
             </LinearLayout>
         </ScrollView>
 
