@@ -121,6 +121,11 @@
 
                 </LinearLayout>
 
+                <CheckBox
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/darkGrey"
+                    android:text="Anonymous"/>
 
                 <LinearLayout
                     android:layout_width="match_parent"
