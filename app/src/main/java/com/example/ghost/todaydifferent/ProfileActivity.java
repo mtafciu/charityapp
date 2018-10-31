@@ -19,6 +19,7 @@ public class ProfileActivity extends Activity {
     ImageButton btn_news;
     ImageView pro_user_img;
     TextView pro_user_name;
+    ImageButton btn_pro_logout;
 
 
     @Override
@@ -27,6 +28,20 @@ public class ProfileActivity extends Activity {
         setContentView(R.layout.act_profile);
 
         final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
+        btn_pro_logout = findViewById(R.id.btn_pro_logout);
+        btn_pro_logout.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                gv.setLogin(false);
+                Intent intent = new Intent();
+                intent.setClass(ProfileActivity.this, LoginActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
 
         pro_user_img = findViewById(R.id.pro_user_img);
         pro_user_img.setImageResource(((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? R.drawable.lukas_img : R.drawable.amy_img));

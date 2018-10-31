@@ -45,6 +45,17 @@
             android:scaleY="0.5"
             android:background="@color/colorLighter"/>
 
+        <ImageButton
+            android:id="@+id/btn_pro_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="10dp"
+            android:layout_gravity="right"
+            android:src="@drawable/logout"
+            android:scaleY="0.8"
+            android:scaleX="0.9"
+            android:background="@color/colorLighter"/>
+
     </LinearLayout>
 
     <LinearLayout

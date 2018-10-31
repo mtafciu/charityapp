@@ -28,6 +28,8 @@ public class NewsActivity extends Activity {
         ll_news_login_block = findViewById(R.id.ll_news_login_block);
         if (gv.getLogin() == true) {
             ll_news_login_block.setVisibility(View.GONE);
+        } else {
+            ll_news_login_block.setVisibility(View.VISIBLE);
         }
 
         btn_log_in = findViewById(R.id.btn_news_log_in);
