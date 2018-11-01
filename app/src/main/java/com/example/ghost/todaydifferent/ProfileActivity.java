@@ -25,6 +25,9 @@ public class ProfileActivity extends Activity {
     TextView pro_user_pts;
     ImageButton btn_pro_logout;
 
+    TextView tv_pro_interest;
+    TextView tv_pro_age;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -32,6 +35,13 @@ public class ProfileActivity extends Activity {
         setContentView(R.layout.act_profile);
 
         final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
+        tv_pro_interest = findViewById(R.id.tv_pro_interest);
+        tv_pro_interest.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.string.interest_lukas : R.string.interest_amy);
+
+        tv_pro_age = findViewById(R.id.tv_pro_age);
+        tv_pro_age.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.string.age_lukas : R.string.age_amy);
+
 
         btn_pro_logout = findViewById(R.id.btn_pro_logout);
         btn_pro_logout.setOnClickListener(new View.OnClickListener() {

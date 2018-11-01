@@ -231,6 +231,7 @@
                     android:text="Age"/>
 
                 <TextView
+                    android:id="@+id/tv_pro_age"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
@@ -281,6 +282,7 @@
                     android:text="Interests"/>
 
                 <TextView
+                    android:id="@+id/tv_pro_interest"
                     android:layout_weight="1"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"

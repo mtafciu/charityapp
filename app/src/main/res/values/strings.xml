@@ -6,6 +6,10 @@
     <string name="email_amy">amy@sap.com</string>
     <string name="user_lukas">Lukas</string>
     <string name="user_amy">Amy</string>
+    <string name="interest_lukas">Refugee, Family</string>
+    <string name="interest_amy">Animals, Family, Education</string>
+    <string name="age_lukas">23</string>
+    <string name="age_amy">30</string>
 
     <string-array name="sign_country_list">
         <item>Germany</item>
