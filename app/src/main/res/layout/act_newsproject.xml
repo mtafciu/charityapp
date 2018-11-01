@@ -138,11 +138,23 @@
                     android:text="So if you have two hours and want to help a student with their homework, then contact us."
                     android:textSize="13sp"/>
 
-
+                <Button
+                    android:id="@+id/btn_news_pro_rel"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:text="Relevant Projects"
+                    android:background="@color/colorLight"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
             </LinearLayout>
         </ScrollView>
 
         <LinearLayout
+            android:id="@+id/ll_news_project_login_block"
             android:layout_width="match_parent"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"
