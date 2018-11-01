@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="horizontal"
-        android:background="#EEEEEE"
+        android:background="@color/colorLighter"
         android:layout_weight="12"
         >
 
@@ -21,7 +21,7 @@
             android:layout_gravity="left"
             android:paddingLeft="20dp"
             android:src="@drawable/back"
-            android:background="#EEEEEE"
+            android:background="@color/colorLighter"
             />
 
         <TextView
@@ -29,12 +29,11 @@
             android:layout_width="wrap_content"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:layout_marginLeft="20dp"
             android:textSize="18sp"
             android:textColor="@color/colorPrimaryDark"
             android:text="Thank you"
             android:textStyle="bold"
-            android:gravity="center_vertical"
+            android:gravity="center"
 
             />
 

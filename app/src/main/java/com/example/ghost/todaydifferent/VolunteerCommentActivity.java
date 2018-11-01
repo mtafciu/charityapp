@@ -70,13 +70,6 @@ public class VolunteerCommentActivity extends Activity {
             }
         });
 
-        /*builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
-            @Override
-            public void onClick(DialogInterface dialog, int which) {
-                Toast.makeText(VolunteerCommentActivity.this, "OK", Toast.LENGTH_SHORT).show();
-            }
-        });*/
-        //利用Builder物件建立AlertDialog
         return builder.create();
     }
 }
