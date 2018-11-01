@@ -24,7 +24,7 @@ public class VolunteerCommentActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerCommentActivity.this, VolunteerThanksActivity.class);
+                intent.setClass(VolunteerCommentActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 //finish();
             }
@@ -37,7 +37,7 @@ public class VolunteerCommentActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerCommentActivity.this, VolunteerThanksActivity.class);
+                intent.setClass(VolunteerCommentActivity.this, ProfileActivity.class);
                 startActivity(intent);
                 //finish();
             }
