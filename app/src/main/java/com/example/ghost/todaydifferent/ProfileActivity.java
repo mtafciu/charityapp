@@ -53,7 +53,7 @@ public class ProfileActivity extends Activity {
         pro_user_name.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.string.user_lukas : R.string.user_amy);
 
         pro_user_pts = findViewById(R.id.pro_user_pts);
-        pro_user_pts.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? "100,000 pts" : "76,000 pts");
+        pro_user_pts.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? gv.getLukasPoint() + " pts" : gv.getAmyPoint() + " pts");
 
         btn_pro_shop = findViewById(R.id.btn_pro_shop);
         btn_pro_shop.setOnClickListener(new View.OnClickListener() {

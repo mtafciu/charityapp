@@ -100,7 +100,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="5dp"
-                            android:text="20 Coins"
+                            android:text="300 Coins"
                             android:textSize="10sp"/>
                     </LinearLayout>
                 </LinearLayout>
@@ -142,7 +142,7 @@
                             android:layout_width="match_parent"
                             android:layout_height="match_parent"
                             android:layout_marginTop="5dp"
-                            android:text="50 Coins"
+                            android:text="450 Coins"
                             android:textSize="10sp"/>
                     </LinearLayout>
                 </LinearLayout>

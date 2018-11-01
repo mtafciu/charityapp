@@ -18,7 +18,6 @@ public class DonationThanksActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.act_donationthanks);
 
-
         btn_do_thx_back = findViewById(R.id.btn_do_thx_back);
         btn_do_thx_back.setOnClickListener(new View.OnClickListener() {
 

@@ -41,7 +41,7 @@ public class RankingActivity extends Activity {
         rank_user_name.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.string.user_lukas : R.string.user_amy);
 
         rank_user_pts = findViewById(R.id.rank_user_pts);
-        rank_user_pts.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? "100,000 pts" : "76,000 pts");
+        rank_user_pts.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? gv.getLukasPoint() + " pts" : gv.getAmyPoint() + " pts");
 
     }
 }

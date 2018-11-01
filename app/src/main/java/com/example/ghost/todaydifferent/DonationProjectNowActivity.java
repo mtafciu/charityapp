@@ -21,6 +21,7 @@ public class DonationProjectNowActivity extends Activity {
     Button btn_debit;
     Button btn_paypal;
     EditText et_donate;
+    int donation_money;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,6 +39,7 @@ public class DonationProjectNowActivity extends Activity {
                 btn_donate_10.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
                 btn_donate_20.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
                 btn_donate_50.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
+                donation_money = 100;
             }
         });
 
@@ -50,6 +52,7 @@ public class DonationProjectNowActivity extends Activity {
                 btn_donate_10.setBackgroundColor(getResources().getColor(R.color.colorLight));
                 btn_donate_20.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
                 btn_donate_50.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
+                donation_money = 10;
             }
         });
 
@@ -62,6 +65,7 @@ public class DonationProjectNowActivity extends Activity {
                 btn_donate_10.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
                 btn_donate_20.setBackgroundColor(getResources().getColor(R.color.colorLight));
                 btn_donate_50.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
+                donation_money = 20;
             }
         });
 
@@ -74,6 +78,7 @@ public class DonationProjectNowActivity extends Activity {
                 btn_donate_10.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
                 btn_donate_20.setBackgroundColor(getResources().getColor(R.color.lighterGrey));
                 btn_donate_50.setBackgroundColor(getResources().getColor(R.color.colorLight));
+                donation_money = 50;
             }
         });
 
@@ -154,6 +159,11 @@ public class DonationProjectNowActivity extends Activity {
             @Override
             public void onClick(View v) {
                 // TODO Auto-generated method stub
+
+                GlobalVariable gv = (GlobalVariable)getApplicationContext();
+                // donate 1 euro, earning 10 pts
+                gv.setAmyPoint(gv.getAmyPoint() + 10 * Integer.parseInt(et_donate.getText().toString()));
+
                 Intent intent = new Intent();
                 intent.setClass(DonationProjectNowActivity.this, DonationThanksActivity.class);
                 startActivity(intent);
