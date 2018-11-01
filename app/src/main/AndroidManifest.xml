@@ -1,6 +1,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.ghost.todaydifferent">
 
+<!-- Sony Xperia XZ -->
+
     <application
         android:name=".GlobalVariable"
         android:allowBackup="true"

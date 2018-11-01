@@ -15,8 +15,6 @@
         <item>Germany</item>
         <item>Taiwan</item>
         <item>China</item>
-        <item>xxx</item>
-        <item>aaa</item>
     </string-array>
 
     <string-array name="sign_city_list">

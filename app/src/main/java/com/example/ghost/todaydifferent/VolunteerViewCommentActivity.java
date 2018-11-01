@@ -21,7 +21,7 @@ public class VolunteerViewCommentActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
-                intent.setClass(VolunteerViewCommentActivity.this, ProfileActivity.class); //返回頁面1
+                intent.setClass(VolunteerViewCommentActivity.this, VolunteerProjectRefugeeActivity.class); //返回頁面1
                 startActivity(intent);
                 finish();
             }

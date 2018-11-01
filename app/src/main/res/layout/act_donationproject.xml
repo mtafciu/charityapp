@@ -77,8 +77,8 @@
                         android:layout_marginLeft="1dp"
                         android:layout_marginTop="5dp"
                         android:layout_gravity="center_vertical"
-                        android:background="@color/colorPrimaryDark"
-                        android:progressBackgroundTint="@color/colorPrimary"
+                        android:background="@color/lightGrey"
+                        android:progressBackgroundTint="@color/white"
                         android:progressTint="@color/colorLight"
                         android:max="100"
                         android:progress="68"/>

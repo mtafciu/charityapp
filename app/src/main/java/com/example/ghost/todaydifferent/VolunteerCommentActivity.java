@@ -1,11 +1,14 @@
 package com.example.ghost.todaydifferent;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 public class VolunteerCommentActivity extends Activity {
     ImageButton btn_vol_pj_cmt_nav_back;
@@ -44,13 +47,39 @@ public class VolunteerCommentActivity extends Activity {
         });
 
         btn_vol_pj_cmt_publish = findViewById(R.id.btn_vol_pj_cmt_publish);
-        btn_vol_pj_cmt_publish.setOnClickListener(new View.OnClickListener() {
-
+        final AlertDialog alertDialog = getAlertDialog("Comment","Your story has been published :)");
+        btn_vol_pj_cmt_publish.setOnClickListener(new Button.OnClickListener() {
             @Override
-            public void onClick(View v) {
-                // TODO Auto-generated method stub
-
+            public void onClick(final View view) {
+                alertDialog.show();
             }
         });
     }
+
+    private AlertDialog getAlertDialog(String title,String message){
+        AlertDialog.Builder builder = new AlertDialog.Builder(VolunteerCommentActivity.this);
+        builder.setTitle(title);
+        builder.setMessage(message);
+        builder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Intent intent = new Intent();
+                intent.setClass(VolunteerCommentActivity.this, ProfileActivity.class);
+                startActivity(intent);
+                finish();
+            }
+        });
+
+        /*builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+            @Override
+            public void onClick(DialogInterface dialog, int which) {
+                Toast.makeText(VolunteerCommentActivity.this, "OK", Toast.LENGTH_SHORT).show();
+            }
+        });*/
+        //利用Builder物件建立AlertDialog
+        return builder.create();
+    }
 }
+
+
+
