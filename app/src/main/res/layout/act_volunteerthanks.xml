@@ -76,7 +76,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Dear Lukas,\n\nSmall effort makes today different.\nVolunteering is not only about giving. It’s a way of living. Thanks for having you here.\nYou’ve received 60 points. Congratulation!\n\nYours,\nTD Team"/>
+                android:text="Dear Lukas,\n\nSmall effort makes today different.\nVolunteering is not only about giving. It’s a way of living. Thanks for having you here.\nYou’ve received 100 points. Congratulation!\n\nYours,\nTD Team"/>
 
         </LinearLayout>
 

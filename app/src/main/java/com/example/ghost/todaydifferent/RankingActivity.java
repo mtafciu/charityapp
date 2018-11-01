@@ -8,11 +8,15 @@ import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
 public class RankingActivity extends Activity {
     ImageButton btn_rank_back;
     ImageView rank_user_img;
     TextView rank_user_name;
     TextView rank_user_pts;
+    TextView txt_rank_lukas;
+    TextView txt_rank_amy;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +37,13 @@ public class RankingActivity extends Activity {
                 finish();
             }
         });
+
+        txt_rank_lukas = findViewById(R.id.txt_rank_lukas);
+        txt_rank_lukas.setText(gv.getLukasPoint()+" pts");
+
+        txt_rank_amy = findViewById(R.id.txt_rank_amy);
+        txt_rank_amy.setText(gv.getAmyPoint()+" pts");
+
 
         rank_user_img = findViewById(R.id.rank_user_img);
         rank_user_img.setImageResource(((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.drawable.lukas_img : R.drawable.amy_img));

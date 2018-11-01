@@ -11,9 +11,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class ProfileActivity extends Activity {
-    Button btn_pro_shop;
-    Button btn_pro_certificate;
-    Button btn_pro_his;
+    ImageButton btn_pro_shop;
+    ImageButton btn_pro_cert;
+    ImageButton btn_pro_mypj;
+    ImageButton btn_pro_rank;
+
     ImageButton btn_volunteer;
     ImageButton btn_donation;
     ImageButton btn_profile;
@@ -68,8 +70,8 @@ public class ProfileActivity extends Activity {
             }
         });
 
-        btn_pro_certificate = findViewById(R.id.btn_pro_certificate);
-        btn_pro_certificate.setOnClickListener(new View.OnClickListener() {
+        btn_pro_cert = findViewById(R.id.btn_pro_cert);
+        btn_pro_cert.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {
@@ -81,8 +83,21 @@ public class ProfileActivity extends Activity {
             }
         });
 
-        btn_pro_his = findViewById(R.id.btn_pro_his);
-        btn_pro_his.setOnClickListener(new View.OnClickListener() {
+        btn_pro_rank = findViewById(R.id.btn_pro_rank);
+        btn_pro_rank.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                // TODO Auto-generated method stub
+                Intent intent = new Intent();
+                intent.setClass(ProfileActivity.this, RankingActivity.class);
+                startActivity(intent);
+                //finish();
+            }
+        });
+
+        btn_pro_mypj = findViewById(R.id.btn_pro_mypj);
+        btn_pro_mypj.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View v) {

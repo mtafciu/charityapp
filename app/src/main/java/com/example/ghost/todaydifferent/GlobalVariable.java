@@ -6,7 +6,7 @@ public class GlobalVariable extends Application {
     private Boolean checkLogin = false;
     private String userName = "Lukas";
     private int lukasPoint = 0;
-    private int amyPoint = 0;
+    private int amyPoint = 340;
 
     public void setLogin(Boolean checkLogin){
         this.checkLogin = checkLogin;

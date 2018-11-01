@@ -51,10 +51,6 @@ public class VolunteerThanksActivity extends Activity {
             public void onClick(View v) {
                 // TODO Auto-generated method stub
 
-                GlobalVariable gv = (GlobalVariable)getApplicationContext();
-                // volunteer 1 hr, earning 100 pts
-                gv.setAmyPoint(gv.getAmyPoint() + 100);
-
                 Intent intent = new Intent();
                 intent.setClass(VolunteerThanksActivity.this, VolunteerCommentActivity.class);
                 startActivity(intent);

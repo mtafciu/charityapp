@@ -64,6 +64,11 @@ public class VolunteerProjectTicketActivity extends Activity {
 
             @Override
             public void onClick(View v) {
+
+                GlobalVariable gv = (GlobalVariable)getApplicationContext();
+                // volunteer 1 hr, earning 100 pts
+                gv.setLukasPoint(gv.getLukasPoint() + 100);
+
                 // TODO Auto-generated method stub
                 Intent intent = new Intent();
                 intent.setClass(VolunteerProjectTicketActivity.this, VolunteerThanksActivity.class);
