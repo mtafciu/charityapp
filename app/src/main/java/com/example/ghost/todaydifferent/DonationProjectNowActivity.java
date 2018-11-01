@@ -29,6 +29,7 @@ public class DonationProjectNowActivity extends Activity {
         setContentView(R.layout.act_donation_now);
 
         et_donate = findViewById(R.id.et_donate);
+        et_donate.setText("0");
 
         btn_donate_100 = findViewById(R.id.btn_donate_100);
         btn_donate_100.setOnClickListener(new View.OnClickListener() {

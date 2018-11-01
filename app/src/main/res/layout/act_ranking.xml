@@ -152,7 +152,7 @@
                                 android:layout_width="130dp"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:text="7,6000 pts"
+                                android:text="7,60 pts"
                                 android:textSize="15sp"/>
 
                         </LinearLayout>
@@ -185,7 +185,7 @@
                                 android:layout_width="130dp"
                                 android:layout_height="match_parent"
                                 android:gravity="center_vertical"
-                                android:text="7,3000 pts"
+                                android:text="7,30 pts"
                                 android:textSize="15sp"/>
 
                         </LinearLayout>

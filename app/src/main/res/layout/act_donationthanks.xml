@@ -56,8 +56,7 @@
             android:layout_height="wrap_content"
             android:orientation="vertical"
             android:layout_marginTop="15dp"
-            android:gravity="center_horizontal"
-            android:layout_weight="1">
+            android:gravity="center_horizontal">
 
             <ImageView
                 android:layout_width="wrap_content"
@@ -71,7 +70,7 @@
                 android:layout_marginTop="20dp"
                 android:layout_marginLeft="20dp"
                 android:layout_marginRight="20dp"
-                android:text="Dear Amy,\n\nBecause of thoughful contributions from people like you today becomes different.\nYou have brough a smile on thousands of faces, and we are grateful to you for the same.\n\nYours,\nTD Team"/>
+                android:text="Dear Amy,\n\nBecause of thoughful contributions from people like you today becomes different.\nYou have brough a smile on thousands of faces, and we are grateful to you for the same. Thank you!\n\nYours,\nTD Team"/>
 
         </LinearLayout>
 
