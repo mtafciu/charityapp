@@ -79,7 +79,7 @@
                         android:layout_gravity="center_vertical"
                         android:background="@color/colorPrimaryDark"
                         android:progressBackgroundTint="@color/colorPrimary"
-                        android:progressTint="@color/colorAccent"
+                        android:progressTint="@color/colorLight"
                         android:max="100"
                         android:progress="68"/>
                     <TextView

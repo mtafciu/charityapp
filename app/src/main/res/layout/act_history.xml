@@ -28,7 +28,7 @@
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="@color/colorPrimaryDark"
-            android:text="History"
+            android:text="My Project"
             android:gravity="center"/>
 
 

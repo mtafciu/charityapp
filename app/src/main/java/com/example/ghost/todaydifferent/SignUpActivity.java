@@ -3,9 +3,11 @@ package com.example.ghost.todaydifferent;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.Spinner;
 
 
@@ -17,6 +19,7 @@ public class SignUpActivity extends Activity {
     Spinner spinner_sign_city;
     Spinner spinner_sign_country;
     Spinner spinner_sign_interest;
+    EditText et_first_name;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -24,6 +27,8 @@ public class SignUpActivity extends Activity {
         setContentView(R.layout.act_signup);
 
         final GlobalVariable gv = (GlobalVariable)getApplicationContext();
+
+        et_first_name = findViewById(R.id.et_first_name);
 
         spinner_sign_city = findViewById(R.id.spinner_sign_city);
         ArrayAdapter<CharSequence> cityList = ArrayAdapter.createFromResource(SignUpActivity.this,
@@ -50,6 +55,7 @@ public class SignUpActivity extends Activity {
             @Override
             public void onClick(View v) {
                 gv.setLogin(true);
+                gv.setUserName(et_first_name.getText().toString());
                 Intent intent = new Intent();
                 intent.setClass(SignUpActivity.this, ProfileActivity.class);
                 startActivity(intent);

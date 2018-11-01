@@ -3,6 +3,7 @@ package com.example.ghost.todaydifferent;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
@@ -45,13 +46,14 @@ public class ProfileActivity extends Activity {
         });
 
         pro_user_img = findViewById(R.id.pro_user_img);
-        pro_user_img.setImageResource(((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? R.drawable.lukas_img : R.drawable.amy_img));
+
+        pro_user_img.setImageResource(((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.drawable.lukas_img : R.drawable.amy_img));
 
         pro_user_name = findViewById(R.id.pro_user_name);
-        pro_user_name.setText((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? R.string.user_lukas : R.string.user_amy);
+        pro_user_name.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? R.string.user_lukas : R.string.user_amy);
 
         pro_user_pts = findViewById(R.id.pro_user_pts);
-        pro_user_pts.setText((gv.getUserName() == getResources().getString(R.string.user_lukas)) ? "100,000 pts" : "76,000 pts");
+        pro_user_pts.setText((gv.getUserName().equals(getResources().getString(R.string.user_lukas))) ? "100,000 pts" : "76,000 pts");
 
         btn_pro_shop = findViewById(R.id.btn_pro_shop);
         btn_pro_shop.setOnClickListener(new View.OnClickListener() {
